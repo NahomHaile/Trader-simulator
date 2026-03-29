@@ -1,0 +1,6563 @@
+[
+  {
+    "date": "2024-10-08",
+    "price": 10896.55,
+    "signal": "HOLD",
+    "conviction": 0.315,
+    "regime": "Downtrend",
+    "stop_loss": 10569.65,
+    "take_profit": 11441.38,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI oversold at 27.3",
+      "Bullish: Stochastic oversold (7)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S2 strong support (11103)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.31 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-10-09",
+    "price": 11065.92,
+    "signal": "HOLD",
+    "conviction": 0.179,
+    "regime": "Downtrend",
+    "stop_loss": 10733.94,
+    "take_profit": 11619.22,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI oversold at 29.1",
+      "Bullish: Stochastic oversold (12)",
+      "Bearish: OBV below its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.18 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-10-10",
+    "price": 10601.64,
+    "signal": "HOLD",
+    "conviction": 0.295,
+    "regime": "Strong Downtrend",
+    "stop_loss": 10283.59,
+    "take_profit": 11131.72,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI oversold at 27.1",
+      "Bullish: Stochastic oversold (4)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (10884)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.29 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-10-11",
+    "price": 11005.3,
+    "signal": "HOLD",
+    "conviction": 0.45,
+    "regime": "Strong Downtrend",
+    "stop_loss": 10675.14,
+    "take_profit": 11555.57,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (31.4)",
+      "Bullish: Stochastic oversold (13)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price near R1 resistance (11060)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.45 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-10-14",
+    "price": 10249.61,
+    "signal": "HOLD",
+    "conviction": 0.458,
+    "regime": "Strong Downtrend",
+    "stop_loss": 9942.12,
+    "take_profit": 10762.09,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI oversold at 28.1",
+      "Bullish: Stochastic oversold (7)",
+      "Bearish: Volume surge (1.5x avg) on down day",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (10647)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.46 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-10-15",
+    "price": 10674.58,
+    "signal": "HOLD",
+    "conviction": 0.45,
+    "regime": "Strong Downtrend",
+    "stop_loss": 10354.34,
+    "take_profit": 11208.31,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (32.5)",
+      "Bullish: Stochastic oversold (16)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price near R1 resistance (11042)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.45 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-10-16",
+    "price": 10648.8,
+    "signal": "HOLD",
+    "conviction": 0.45,
+    "regime": "Strong Downtrend",
+    "stop_loss": 10329.34,
+    "take_profit": 11181.24,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (32.3)",
+      "Bullish: Stochastic oversold (18)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price near R1 resistance (11004)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.45 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-10-17",
+    "price": 11423.8,
+    "signal": "HOLD",
+    "conviction": 0.581,
+    "regime": "Strong Downtrend",
+    "stop_loss": 11081.09,
+    "take_profit": 11994.99,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bearish: OBV below its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.58 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-10-18",
+    "price": 12117.68,
+    "signal": "LEAN BUY",
+    "conviction": 0.379,
+    "regime": "Strong Downtrend",
+    "stop_loss": 10472.93,
+    "take_profit": 16229.56,
+    "position_size_pct": 0.1473,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bullish: MACD histogram crossed above zero",
+      "Bullish: MACD bullish crossover",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (11748)"
+    ],
+    "warnings": [
+      "DISCIPLINE: Buying against downtrend \u2014 reduced conviction"
+    ]
+  },
+  {
+    "date": "2024-10-21",
+    "price": 12745.98,
+    "signal": "HOLD",
+    "conviction": 0.284,
+    "regime": "Strong Downtrend",
+    "stop_loss": 12363.6,
+    "take_profit": 13383.28,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: Stochastic overbought (95)",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)",
+      "Bearish: Price near R1 resistance (12623)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.28 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-10-22",
+    "price": 11494.12,
+    "signal": "HOLD",
+    "conviction": 0.315,
+    "regime": "Strong Downtrend",
+    "stop_loss": 11149.3,
+    "take_profit": 12068.83,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bullish: OBV above its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S2 strong support (11685)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.31 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-10-23",
+    "price": 11055.33,
+    "signal": "HOLD",
+    "conviction": 0.457,
+    "regime": "Strong Downtrend",
+    "stop_loss": 10723.67,
+    "take_profit": 11608.1,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (10755)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.46 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-10-24",
+    "price": 10861.24,
+    "signal": "HOLD",
+    "conviction": 0.35,
+    "regime": "Strong Downtrend",
+    "stop_loss": 10535.4,
+    "take_profit": 11404.3,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (39.2)",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (10853)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.35 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-10-25",
+    "price": 10709.2,
+    "signal": "HOLD",
+    "conviction": 0.306,
+    "regime": "Strong Downtrend",
+    "stop_loss": 10387.92,
+    "take_profit": 11244.66,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (38.4)",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (10707)",
+      "Bearish: Price near R1 resistance (11087)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.31 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-10-28",
+    "price": 10976.01,
+    "signal": "HOLD",
+    "conviction": 0.351,
+    "regime": "Strong Downtrend",
+    "stop_loss": 10646.73,
+    "take_profit": 11524.81,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (10609)",
+      "Bearish: Price near R1 resistance (10898)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.35 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-10-29",
+    "price": 11143.8,
+    "signal": "HOLD",
+    "conviction": 0.326,
+    "regime": "Strong Downtrend",
+    "stop_loss": 10809.49,
+    "take_profit": 11700.99,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bearish: Price near R1 resistance (11173)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.33 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-10-30",
+    "price": 11333.19,
+    "signal": "HOLD",
+    "conviction": 0.367,
+    "regime": "Strong Downtrend",
+    "stop_loss": 10993.19,
+    "take_profit": 11899.85,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)",
+      "Bearish: Price near R1 resistance (11298)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.37 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-10-31",
+    "price": 12683.24,
+    "signal": "LEAN BUY",
+    "conviction": 0.378,
+    "regime": "Downtrend",
+    "stop_loss": 11032.03,
+    "take_profit": 16811.26,
+    "position_size_pct": 0.1536,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)"
+    ],
+    "warnings": [
+      "DISCIPLINE: Buying against downtrend \u2014 reduced conviction"
+    ]
+  },
+  {
+    "date": "2024-11-01",
+    "price": 11300.6,
+    "signal": "HOLD",
+    "conviction": 0.241,
+    "regime": "Downtrend",
+    "stop_loss": 10961.58,
+    "take_profit": 11865.63,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (11478)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.24 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-11-04",
+    "price": 11917.9,
+    "signal": "LEAN BUY",
+    "conviction": 0.41,
+    "regime": "Downtrend",
+    "stop_loss": 10034.68,
+    "take_profit": 16625.94,
+    "position_size_pct": 0.1266,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: Volume surge (2.2x avg) on up day",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)"
+    ],
+    "warnings": [
+      "DISCIPLINE: Buying against downtrend \u2014 reduced conviction"
+    ]
+  },
+  {
+    "date": "2024-11-05",
+    "price": 11861.07,
+    "signal": "HOLD",
+    "conviction": 0.218,
+    "regime": "Downtrend",
+    "stop_loss": 11505.24,
+    "take_profit": 12454.12,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (12263)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.22 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-11-06",
+    "price": 11885.1,
+    "signal": "HOLD",
+    "conviction": 0.397,
+    "regime": "Downtrend",
+    "stop_loss": 11528.55,
+    "take_profit": 12479.36,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "\u26a0 Low volume (0.5x avg) \u2014 weak conviction",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (11822)",
+      "Bearish: Price near R1 resistance (11923)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.40 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-11-07",
+    "price": 11605.93,
+    "signal": "HOLD",
+    "conviction": 0.225,
+    "regime": "Downtrend",
+    "stop_loss": 11257.75,
+    "take_profit": 12186.23,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bullish: OBV above its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (11811)",
+      "Bearish: Price near R1 resistance (11952)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.22 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-11-08",
+    "price": 12553.3,
+    "signal": "LEAN BUY",
+    "conviction": 0.47,
+    "regime": "Downtrend",
+    "stop_loss": 10834.5,
+    "take_profit": 16850.3,
+    "position_size_pct": 0.1461,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Fresh EMA 9/21 golden cross",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)"
+    ],
+    "warnings": [
+      "DISCIPLINE: Buying against downtrend \u2014 reduced conviction"
+    ]
+  },
+  {
+    "date": "2024-11-11",
+    "price": 13595.59,
+    "signal": "HOLD",
+    "conviction": 0.241,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 13187.72,
+    "take_profit": 14275.37,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (60.3)",
+      "Bearish: Stochastic overbought (91)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price at upper Bollinger Band (potential resistance)",
+      "Bearish: Price near R1 resistance (13254)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.24 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-11-12",
+    "price": 13306.31,
+    "signal": "HOLD",
+    "conviction": 0.474,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 12907.12,
+    "take_profit": 13971.63,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: Stochastic overbought (82)",
+      "Bullish: OBV above its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.47 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-11-13",
+    "price": 13557.33,
+    "signal": "HOLD",
+    "conviction": 0.298,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 13150.61,
+    "take_profit": 14235.2,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: Stochastic overbought (90)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (13617)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.30 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-11-14",
+    "price": 13086.53,
+    "signal": "HOLD",
+    "conviction": 0.479,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 12693.93,
+    "take_profit": 13740.86,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (13343)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.48 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-11-15",
+    "price": 13568.75,
+    "signal": "HOLD",
+    "conviction": 0.487,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 13161.69,
+    "take_profit": 14247.19,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: Stochastic overbought (89)",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R1 resistance (13490)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.49 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-11-18",
+    "price": 13401.57,
+    "signal": "HOLD",
+    "conviction": 0.579,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 12999.52,
+    "take_profit": 14071.65,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: Stochastic overbought (83)",
+      "\u26a0 Low volume (0.5x avg) \u2014 weak conviction",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (13083)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.58 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-11-19",
+    "price": 12522.49,
+    "signal": "LEAN BUY",
+    "conviction": 0.34,
+    "regime": "Downtrend",
+    "stop_loss": 10808.37,
+    "take_profit": 16807.8,
+    "position_size_pct": 0.1461,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average"
+    ],
+    "warnings": [
+      "DISCIPLINE: Buying against downtrend \u2014 reduced conviction",
+      "Only 2 confirmations (need 3)"
+    ]
+  },
+  {
+    "date": "2024-11-20",
+    "price": 11822.85,
+    "signal": "HOLD",
+    "conviction": 0.462,
+    "regime": "Downtrend",
+    "stop_loss": 11468.16,
+    "take_profit": 12413.99,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (11826)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.46 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-11-21",
+    "price": 11418.98,
+    "signal": "LEAN SELL",
+    "conviction": 0.643,
+    "regime": "Downtrend",
+    "stop_loss": 13162.06,
+    "take_profit": 7061.28,
+    "position_size_pct": 0.131,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: MACD histogram crossed below zero",
+      "Bearish: MACD bearish crossover",
+      "Bullish: Stochastic oversold (8)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (11321)"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2024-11-22",
+    "price": 11352.27,
+    "signal": "HOLD",
+    "conviction": 0.527,
+    "regime": "Downtrend",
+    "stop_loss": 11011.7,
+    "take_profit": 11919.88,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Fresh EMA 9/21 death cross",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Stochastic oversold (6)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (11128)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.53 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-11-25",
+    "price": 11215.22,
+    "signal": "HOLD",
+    "conviction": 0.573,
+    "regime": "Downtrend",
+    "stop_loss": 10878.76,
+    "take_profit": 11775.98,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Stochastic oversold (3)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (11307)",
+      "Bearish: Price near R1 resistance (11427)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.57 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-11-26",
+    "price": 10949.11,
+    "signal": "HOLD",
+    "conviction": 0.387,
+    "regime": "Downtrend",
+    "stop_loss": 10620.64,
+    "take_profit": 11496.57,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (39.7)",
+      "Bullish: Stochastic oversold (4)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (11080)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.39 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-11-27",
+    "price": 10980.5,
+    "signal": "HOLD",
+    "conviction": 0.423,
+    "regime": "Downtrend",
+    "stop_loss": 10651.08,
+    "take_profit": 11529.52,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Stochastic oversold (5)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (10711)",
+      "Bearish: Price near R1 resistance (11310)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.42 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-11-28",
+    "price": 10213.37,
+    "signal": "HOLD",
+    "conviction": 0.503,
+    "regime": "Downtrend",
+    "stop_loss": 9906.97,
+    "take_profit": 10724.04,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (35.1)",
+      "Bullish: Stochastic oversold (6)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.50 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-11-29",
+    "price": 10110.62,
+    "signal": "HOLD",
+    "conviction": 0.2,
+    "regime": "Downtrend",
+    "stop_loss": 9807.3,
+    "take_profit": 10616.15,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (34.5)",
+      "Bullish: Stochastic oversold (4)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (9787)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.20 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-12-02",
+    "price": 10683.72,
+    "signal": "HOLD",
+    "conviction": 0.397,
+    "regime": "Downtrend",
+    "stop_loss": 10363.21,
+    "take_profit": 11217.91,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Stochastic oversold (19)",
+      "Bearish: OBV below its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R2 strong resistance (10378)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.40 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-12-03",
+    "price": 10444.79,
+    "signal": "HOLD",
+    "conviction": 0.2,
+    "regime": "Downtrend",
+    "stop_loss": 10131.45,
+    "take_profit": 10967.03,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (39.1)",
+      "Bullish: Stochastic oversold (13)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (10178)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.20 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-12-04",
+    "price": 10548.04,
+    "signal": "HOLD",
+    "conviction": 0.423,
+    "regime": "Downtrend",
+    "stop_loss": 10231.6,
+    "take_profit": 11075.44,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Stochastic oversold (15)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (10316)",
+      "Bearish: Price near R1 resistance (10696)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.42 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-12-05",
+    "price": 10829.48,
+    "signal": "HOLD",
+    "conviction": 0.479,
+    "regime": "Downtrend",
+    "stop_loss": 10504.6,
+    "take_profit": 11370.95,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Volume surge (1.5x avg) on up day",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price near R1 resistance (10644)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.48 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-12-06",
+    "price": 11369.29,
+    "signal": "HOLD",
+    "conviction": 0.128,
+    "regime": "Downtrend",
+    "stop_loss": 11028.21,
+    "take_profit": 11937.75,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)",
+      "Bearish: Price near R2 strong resistance (11224)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.13 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-12-09",
+    "price": 11726.98,
+    "signal": "BUY",
+    "conviction": 0.765,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 10382.96,
+    "take_profit": 15087.03,
+    "position_size_pct": 0.1745,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: MACD histogram crossed above zero",
+      "Bullish: MACD bullish crossover",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)",
+      "Bearish: Price near R1 resistance (11757)"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2024-12-10",
+    "price": 10907.44,
+    "signal": "HOLD",
+    "conviction": 0.179,
+    "regime": "Downtrend",
+    "stop_loss": 10580.22,
+    "take_profit": 11452.81,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S2 strong support (10865)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.18 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-12-11",
+    "price": 10476.98,
+    "signal": "HOLD",
+    "conviction": 0.206,
+    "regime": "Downtrend",
+    "stop_loss": 10162.67,
+    "take_profit": 11000.83,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (10398)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.21 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-12-12",
+    "price": 10349.58,
+    "signal": "SELL",
+    "conviction": 0.651,
+    "regime": "Downtrend",
+    "stop_loss": 11741.4,
+    "take_profit": 6870.02,
+    "position_size_pct": 0.1487,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: MACD histogram crossed below zero",
+      "Bearish: MACD bearish crossover",
+      "Bullish: Stochastic oversold (18)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (10128)"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2024-12-13",
+    "price": 9831.82,
+    "signal": "HOLD",
+    "conviction": 0.349,
+    "regime": "Downtrend",
+    "stop_loss": 9536.87,
+    "take_profit": 10323.41,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (37.1)",
+      "Bullish: Stochastic oversold (1)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S2 strong support (10114)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.35 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-12-16",
+    "price": 9661.04,
+    "signal": "HOLD",
+    "conviction": 0.2,
+    "regime": "Downtrend",
+    "stop_loss": 9371.21,
+    "take_profit": 10144.09,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (35.9)",
+      "Bullish: Stochastic oversold (3)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (9598)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.20 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-12-17",
+    "price": 9543.19,
+    "signal": "HOLD",
+    "conviction": 0.234,
+    "regime": "Downtrend",
+    "stop_loss": 9256.89,
+    "take_profit": 10020.35,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (35.1)",
+      "Bullish: Stochastic oversold (9)",
+      "Bullish: Volume surge (1.6x avg) on up day",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (9534)",
+      "Bearish: Price near R1 resistance (9847)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.23 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-12-18",
+    "price": 9459.01,
+    "signal": "HOLD",
+    "conviction": 0.33,
+    "regime": "Downtrend",
+    "stop_loss": 9175.24,
+    "take_profit": 9931.96,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (34.5)",
+      "Bullish: Stochastic oversold (6)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (9337)",
+      "Bearish: Price near R1 resistance (9697)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.33 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-12-19",
+    "price": 9114.34,
+    "signal": "HOLD",
+    "conviction": 0.16,
+    "regime": "Downtrend",
+    "stop_loss": 8840.91,
+    "take_profit": 9570.06,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (32.1)",
+      "Bullish: Stochastic oversold (5)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S2 strong support (9379)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.16 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-12-20",
+    "price": 9318.39,
+    "signal": "HOLD",
+    "conviction": 0.45,
+    "regime": "Downtrend",
+    "stop_loss": 9038.84,
+    "take_profit": 9784.31,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (35.0)",
+      "Bullish: Stochastic oversold (11)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price near R1 resistance (9477)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.45 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-12-23",
+    "price": 9805.12,
+    "signal": "HOLD",
+    "conviction": 0.368,
+    "regime": "Downtrend",
+    "stop_loss": 9510.97,
+    "take_profit": 10295.38,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price near R2 strong resistance (9628)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.37 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-12-24",
+    "price": 9877.29,
+    "signal": "HOLD",
+    "conviction": 0.31,
+    "regime": "Downtrend",
+    "stop_loss": 9580.97,
+    "take_profit": 10371.15,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "\u26a0 Low volume (0.5x avg) \u2014 weak conviction",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price near R1 resistance (10051)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.31 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-12-25",
+    "price": 9878.34,
+    "signal": "HOLD",
+    "conviction": 0.374,
+    "regime": "Downtrend",
+    "stop_loss": 9581.99,
+    "take_profit": 10372.26,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: MACD histogram crossed above zero",
+      "Bullish: MACD bullish crossover",
+      "\u26a0 Low volume (0.5x avg) \u2014 weak conviction",
+      "Bearish: OBV below its moving average",
+      "Neutral Pattern: Doji (indecision)",
+      "Bullish: Price near S1 support (9761)",
+      "Bearish: Price near R1 resistance (9953)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.37 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-12-26",
+    "price": 10583.34,
+    "signal": "LEAN BUY",
+    "conviction": 0.378,
+    "regime": "Downtrend",
+    "stop_loss": 9466.06,
+    "take_profit": 13376.54,
+    "position_size_pct": 0.1894,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)"
+    ],
+    "warnings": [
+      "DISCIPLINE: Buying against downtrend \u2014 reduced conviction"
+    ]
+  },
+  {
+    "date": "2024-12-27",
+    "price": 10785.67,
+    "signal": "HOLD",
+    "conviction": 0.474,
+    "regime": "Downtrend",
+    "stop_loss": 10462.1,
+    "take_profit": 11324.95,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: Volume surge (1.7x avg) on up day",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (10912)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.47 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-12-30",
+    "price": 11451.35,
+    "signal": "HOLD",
+    "conviction": 0.462,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11107.81,
+    "take_profit": 12023.92,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: Stochastic overbought (85)",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.46 < 0.6)"
+    ]
+  },
+  {
+    "date": "2024-12-31",
+    "price": 12005.17,
+    "signal": "HOLD",
+    "conviction": 0.501,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11645.01,
+    "take_profit": 12605.43,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Fresh EMA 9/21 golden cross",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (63.8)",
+      "Bearish: Stochastic overbought (92)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price at upper Bollinger Band (potential resistance)",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)",
+      "Bearish: Price near R1 resistance (11976)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.50 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-01-01",
+    "price": 12155.37,
+    "signal": "HOLD",
+    "conviction": 0.36,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11790.71,
+    "take_profit": 12763.14,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (64.9)",
+      "Bearish: Stochastic overbought (97)",
+      "Bullish: OBV above its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.36 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-01-02",
+    "price": 11912.34,
+    "signal": "HOLD",
+    "conviction": 0.291,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11554.97,
+    "take_profit": 12507.96,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (61.7)",
+      "Bearish: Stochastic overbought (89)",
+      "Bullish: OBV above its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (12009)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.29 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-01-03",
+    "price": 11460.8,
+    "signal": "BUY",
+    "conviction": 0.81,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 10259.31,
+    "take_profit": 14464.53,
+    "position_size_pct": 0.1908,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (11699)"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-01-06",
+    "price": 11628.54,
+    "signal": "HOLD",
+    "conviction": 0.445,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11279.68,
+    "take_profit": 12209.97,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: Stochastic overbought (81)",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bearish: Price near R1 resistance (11852)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.45 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-01-07",
+    "price": 12067.5,
+    "signal": "HOLD",
+    "conviction": 0.222,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11705.48,
+    "take_profit": 12670.88,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (61.4)",
+      "Bearish: Stochastic overbought (94)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (11863)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.22 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-01-08",
+    "price": 11647.96,
+    "signal": "HOLD",
+    "conviction": 0.579,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11298.52,
+    "take_profit": 12230.36,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: Stochastic overbought (81)",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (11665)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.58 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-01-09",
+    "price": 11453.31,
+    "signal": "HOLD",
+    "conviction": 0.73,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11109.71,
+    "take_profit": 12025.98,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (11317)"
+    ],
+    "warnings": [
+      "PATIENCE: Volatile conditions \u2014 need higher conviction"
+    ]
+  },
+  {
+    "date": "2025-01-10",
+    "price": 11605.21,
+    "signal": "HOLD",
+    "conviction": 0.474,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11257.05,
+    "take_profit": 12185.47,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (11691)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.47 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-01-13",
+    "price": 11477.58,
+    "signal": "HOLD",
+    "conviction": 0.397,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11133.25,
+    "take_profit": 12051.46,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (11438)",
+      "Bearish: Price near R1 resistance (11700)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.40 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-01-14",
+    "price": 11735.61,
+    "signal": "HOLD",
+    "conviction": 0.633,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11383.54,
+    "take_profit": 12322.39,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R1 resistance (11587)"
+    ],
+    "warnings": [
+      "PATIENCE: Volatile conditions \u2014 need higher conviction"
+    ]
+  },
+  {
+    "date": "2025-01-15",
+    "price": 11059.75,
+    "signal": "HOLD",
+    "conviction": 0.146,
+    "regime": "Downtrend",
+    "stop_loss": 10727.96,
+    "take_profit": 11612.74,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S2 strong support (11202)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.15 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-01-16",
+    "price": 11342.2,
+    "signal": "HOLD",
+    "conviction": 0.52,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11001.93,
+    "take_profit": 11909.31,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: RSI negative divergence (price up, RSI down)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (11622)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.52 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-01-17",
+    "price": 11163.49,
+    "signal": "HOLD",
+    "conviction": 0.33,
+    "regime": "Downtrend",
+    "stop_loss": 10828.59,
+    "take_profit": 11721.66,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: MACD histogram crossed below zero",
+      "Bearish: MACD bearish crossover",
+      "Bullish: Stochastic oversold (19)",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (11064)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.33 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-01-20",
+    "price": 10811.85,
+    "signal": "HOLD",
+    "conviction": 0.167,
+    "regime": "Downtrend",
+    "stop_loss": 10487.49,
+    "take_profit": 11352.44,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Stochastic oversold (7)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (11022)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.17 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-01-21",
+    "price": 10833.75,
+    "signal": "HOLD",
+    "conviction": 0.218,
+    "regime": "Downtrend",
+    "stop_loss": 10508.74,
+    "take_profit": 11375.44,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Stochastic oversold (9)",
+      "Bearish: OBV below its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.22 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-01-22",
+    "price": 11381.75,
+    "signal": "HOLD",
+    "conviction": 0.42,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11040.3,
+    "take_profit": 11950.84,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.42 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-01-23",
+    "price": 11706.56,
+    "signal": "HOLD",
+    "conviction": 0.416,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11355.36,
+    "take_profit": 12291.89,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)",
+      "Bearish: Price near R1 resistance (11857)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.42 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-01-24",
+    "price": 11200.16,
+    "signal": "HOLD",
+    "conviction": 0.273,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 10864.16,
+    "take_profit": 11760.17,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (11415)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.27 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-01-27",
+    "price": 10823.36,
+    "signal": "HOLD",
+    "conviction": 0.473,
+    "regime": "Downtrend",
+    "stop_loss": 10498.66,
+    "take_profit": 11364.53,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: Stochastic oversold (19)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (10899)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.47 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-01-28",
+    "price": 11305.05,
+    "signal": "HOLD",
+    "conviction": 0.633,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 10965.9,
+    "take_profit": 11870.3,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R1 resistance (11147)"
+    ],
+    "warnings": [
+      "PATIENCE: Volatile conditions \u2014 need higher conviction"
+    ]
+  },
+  {
+    "date": "2025-01-29",
+    "price": 11671.32,
+    "signal": "HOLD",
+    "conviction": 0.598,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11321.18,
+    "take_profit": 12254.89,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bearish: Price near R1 resistance (11568)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.60 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-01-30",
+    "price": 11218.64,
+    "signal": "HOLD",
+    "conviction": 0.273,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 10882.08,
+    "take_profit": 11779.57,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (11198)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.27 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-01-31",
+    "price": 11819.54,
+    "signal": "STRONG BUY",
+    "conviction": 0.889,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 10536.52,
+    "take_profit": 15027.08,
+    "position_size_pct": 0.1842,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: MACD histogram crossed above zero",
+      "Bullish: MACD bullish crossover",
+      "Bullish: Volume surge (1.5x avg) on up day",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R1 resistance (11664)"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-02-03",
+    "price": 11791.46,
+    "signal": "HOLD",
+    "conviction": 0.395,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11437.72,
+    "take_profit": 12381.03,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: RSI negative divergence (price up, RSI down)",
+      "Bullish: OBV above its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.39 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-02-04",
+    "price": 12399.0,
+    "signal": "HOLD",
+    "conviction": 0.398,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 12027.03,
+    "take_profit": 13018.95,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (60.7)",
+      "Bearish: Stochastic overbought (88)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price at upper Bollinger Band (potential resistance)",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.40 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-02-05",
+    "price": 12521.08,
+    "signal": "HOLD",
+    "conviction": 0.33,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 12145.45,
+    "take_profit": 13147.13,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (61.7)",
+      "Bearish: Stochastic overbought (94)",
+      "\u26a0 Low volume (0.5x avg) \u2014 weak conviction",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price at upper Bollinger Band (potential resistance)",
+      "Bullish: Walking the upper Bollinger Band (strong trend)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.33 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-02-06",
+    "price": 13012.98,
+    "signal": "HOLD",
+    "conviction": 0.376,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 12622.59,
+    "take_profit": 13663.63,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (65.4)",
+      "Bearish: Stochastic overbought (99)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price at upper Bollinger Band (potential resistance)",
+      "Bullish: Walking the upper Bollinger Band (strong trend)",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)",
+      "Bearish: Price near R2 strong resistance (12709)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.38 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-02-07",
+    "price": 13496.9,
+    "signal": "HOLD",
+    "conviction": 0.405,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 13091.99,
+    "take_profit": 14171.75,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (68.7)",
+      "Bearish: Stochastic overbought (93)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price at upper Bollinger Band (potential resistance)",
+      "Bullish: Walking the upper Bollinger Band (strong trend)",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)",
+      "Bearish: Price near R1 resistance (13284)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.41 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-02-10",
+    "price": 13273.74,
+    "signal": "HOLD",
+    "conviction": 0.479,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 12875.53,
+    "take_profit": 13937.43,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (65.6)",
+      "Bearish: Stochastic overbought (86)",
+      "Bullish: OBV above its moving average",
+      "Bullish: Walking the upper Bollinger Band (strong trend)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.48 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-02-11",
+    "price": 13484.97,
+    "signal": "HOLD",
+    "conviction": 0.222,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 13080.42,
+    "take_profit": 14159.22,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (67.1)",
+      "Bearish: Stochastic overbought (92)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (13539)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.22 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-02-12",
+    "price": 13405.46,
+    "signal": "HOLD",
+    "conviction": 0.351,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 13003.3,
+    "take_profit": 14075.73,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (65.9)",
+      "Bearish: Stochastic overbought (90)",
+      "\u26a0 Low volume (0.4x avg) \u2014 weak conviction",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (13233)",
+      "Bearish: Price near R1 resistance (13647)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.35 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-02-13",
+    "price": 13187.49,
+    "signal": "HOLD",
+    "conviction": 0.479,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 12791.87,
+    "take_profit": 13846.86,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (62.7)",
+      "Bearish: Stochastic overbought (83)",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (13322)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.48 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-02-14",
+    "price": 14377.31,
+    "signal": "HOLD",
+    "conviction": 0.291,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 13945.99,
+    "take_profit": 15096.18,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: RSI overbought at 71.0",
+      "Bearish: Stochastic overbought (95)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price at upper Bollinger Band (potential resistance)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.29 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-02-17",
+    "price": 12703.29,
+    "signal": "HOLD",
+    "conviction": 0.179,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 12322.19,
+    "take_profit": 13338.45,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: Volume surge (1.6x avg) on down day",
+      "Bullish: OBV above its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S2 strong support (12550)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.18 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-02-18",
+    "price": 12954.34,
+    "signal": "HOLD",
+    "conviction": 0.68,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 12565.71,
+    "take_profit": 13602.06,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Volatile conditions \u2014 need higher conviction"
+    ]
+  },
+  {
+    "date": "2025-02-19",
+    "price": 13981.31,
+    "signal": "HOLD",
+    "conviction": 0.36,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 13561.87,
+    "take_profit": 14680.38,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (61.6)",
+      "Bearish: Stochastic overbought (82)",
+      "Bullish: OBV above its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.36 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-02-20",
+    "price": 13606.95,
+    "signal": "BUY",
+    "conviction": 0.76,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 12085.09,
+    "take_profit": 17411.59,
+    "position_size_pct": 0.1788,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-02-21",
+    "price": 13205.03,
+    "signal": "HOLD",
+    "conviction": 0.31,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 12808.88,
+    "take_profit": 13865.28,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: RSI negative divergence (price up, RSI down)",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (13409)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.31 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-02-24",
+    "price": 13095.61,
+    "signal": "HOLD",
+    "conviction": 0.588,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 12702.74,
+    "take_profit": 13750.39,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: RSI negative divergence (price up, RSI down)",
+      "Bearish: MACD histogram crossed below zero",
+      "Bearish: MACD bearish crossover",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (13057)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.59 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-02-25",
+    "price": 12521.28,
+    "signal": "HOLD",
+    "conviction": 0.231,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 12145.64,
+    "take_profit": 13147.34,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Stochastic oversold (11)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S2 strong support (12849)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.23 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-02-26",
+    "price": 12288.61,
+    "signal": "HOLD",
+    "conviction": 0.24,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11919.95,
+    "take_profit": 12903.04,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Stochastic oversold (5)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bullish: Price near S1 support (12108)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.24 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-02-27",
+    "price": 12443.85,
+    "signal": "HOLD",
+    "conviction": 0.397,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 12070.53,
+    "take_profit": 13066.04,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Stochastic oversold (13)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price near R1 resistance (12608)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.40 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-02-28",
+    "price": 11735.53,
+    "signal": "LEAN SELL",
+    "conviction": 0.627,
+    "regime": "Strong Downtrend",
+    "stop_loss": 13195.65,
+    "take_profit": 8085.22,
+    "position_size_pct": 0.1607,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Fresh EMA 9/21 death cross",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Stochastic oversold (5)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S2 strong support (12010)"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-03-03",
+    "price": 12053.61,
+    "signal": "HOLD",
+    "conviction": 0.474,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11692.0,
+    "take_profit": 12656.29,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Stochastic oversold (16)",
+      "Bearish: OBV below its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.47 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-03-04",
+    "price": 12244.39,
+    "signal": "HOLD",
+    "conviction": 0.543,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11877.06,
+    "take_profit": 12856.61,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bearish: Price near R1 resistance (12277)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.54 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-03-05",
+    "price": 13086.95,
+    "signal": "HOLD",
+    "conviction": 0.405,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 12694.34,
+    "take_profit": 13741.3,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.41 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-03-06",
+    "price": 12894.84,
+    "signal": "HOLD",
+    "conviction": 0.411,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 12507.99,
+    "take_profit": 13539.58,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Fresh EMA 9/21 golden cross",
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.41 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-03-07",
+    "price": 13429.41,
+    "signal": "HOLD",
+    "conviction": 0.428,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 13026.53,
+    "take_profit": 14100.88,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R1 resistance (13085)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.43 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-03-10",
+    "price": 12971.46,
+    "signal": "HOLD",
+    "conviction": 0.299,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 12582.32,
+    "take_profit": 13620.03,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: RSI negative divergence (price up, RSI down)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (12979)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.30 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-03-11",
+    "price": 13675.6,
+    "signal": "HOLD",
+    "conviction": 0.663,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 13265.33,
+    "take_profit": 14359.38,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: MACD histogram crossed above zero",
+      "Bullish: MACD bullish crossover",
+      "Bearish: Stochastic overbought (84)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R1 resistance (13496)"
+    ],
+    "warnings": [
+      "PATIENCE: Volatile conditions \u2014 need higher conviction"
+    ]
+  },
+  {
+    "date": "2025-03-12",
+    "price": 14210.17,
+    "signal": "HOLD",
+    "conviction": 0.222,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 13783.86,
+    "take_profit": 14920.68,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (61.5)",
+      "Bearish: Stochastic overbought (98)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (14324)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.22 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-03-13",
+    "price": 14596.41,
+    "signal": "HOLD",
+    "conviction": 0.408,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 14158.52,
+    "take_profit": 15326.23,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (63.8)",
+      "Bearish: Stochastic overbought (96)",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)",
+      "Bearish: Price near R1 resistance (14528)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.41 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-03-14",
+    "price": 15457.84,
+    "signal": "HOLD",
+    "conviction": 0.269,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 14994.1,
+    "take_profit": 16230.73,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (68.4)",
+      "Bearish: Stochastic overbought (89)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price at upper Bollinger Band (potential resistance)",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)",
+      "Bearish: Price near R2 strong resistance (15190)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.27 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-03-17",
+    "price": 15111.1,
+    "signal": "HOLD",
+    "conviction": 0.36,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 14657.77,
+    "take_profit": 15866.66,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (64.8)",
+      "Bearish: Stochastic overbought (81)",
+      "Bullish: OBV above its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.36 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-03-18",
+    "price": 15758.17,
+    "signal": "HOLD",
+    "conviction": 0.415,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 15285.42,
+    "take_profit": 16546.08,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (68.1)",
+      "Bearish: Stochastic overbought (93)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price at upper Bollinger Band (potential resistance)",
+      "Bullish: Walking the upper Bollinger Band (strong trend)",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R1 resistance (15565)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.42 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-03-19",
+    "price": 16478.49,
+    "signal": "HOLD",
+    "conviction": 0.324,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 15984.14,
+    "take_profit": 17302.41,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: RSI overbought at 71.4",
+      "Bearish: Stochastic overbought (91)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price at upper Bollinger Band (potential resistance)",
+      "Bullish: Walking the upper Bollinger Band (strong trend)",
+      "Bearish: Price near R1 resistance (16227)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.32 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-03-20",
+    "price": 17178.75,
+    "signal": "HOLD",
+    "conviction": 0.313,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 16663.39,
+    "take_profit": 18037.69,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: RSI overbought at 74.1",
+      "Bearish: Stochastic overbought (93)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price at upper Bollinger Band (potential resistance)",
+      "Bullish: Walking the upper Bollinger Band (strong trend)",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)",
+      "Bearish: Price near R1 resistance (17066)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.31 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-03-21",
+    "price": 16641.32,
+    "signal": "HOLD",
+    "conviction": 0.578,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 16142.08,
+    "take_profit": 17473.39,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (68.7)",
+      "Bearish: Stochastic overbought (83)",
+      "Bullish: OBV above its moving average",
+      "Bullish: Walking the upper Bollinger Band (strong trend)",
+      "Bullish: Price near S1 support (16550)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.58 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-03-24",
+    "price": 15999.27,
+    "signal": "HOLD",
+    "conviction": 0.66,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 15519.29,
+    "take_profit": 16799.23,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (62.7)",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (16303)"
+    ],
+    "warnings": [
+      "PATIENCE: Volatile conditions \u2014 need higher conviction"
+    ]
+  },
+  {
+    "date": "2025-03-25",
+    "price": 16006.68,
+    "signal": "HOLD",
+    "conviction": 0.66,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 15526.48,
+    "take_profit": 16807.01,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (62.8)",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (15683)"
+    ],
+    "warnings": [
+      "PATIENCE: Volatile conditions \u2014 need higher conviction"
+    ]
+  },
+  {
+    "date": "2025-03-26",
+    "price": 15440.4,
+    "signal": "HOLD",
+    "conviction": 0.42,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 14977.19,
+    "take_profit": 16212.42,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.42 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-03-27",
+    "price": 15692.68,
+    "signal": "HOLD",
+    "conviction": 0.206,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 15221.9,
+    "take_profit": 16477.31,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (15890)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.21 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-03-28",
+    "price": 15455.93,
+    "signal": "HOLD",
+    "conviction": 0.551,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 14992.25,
+    "take_profit": 16228.73,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: MACD histogram crossed below zero",
+      "Bearish: MACD bearish crossover",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (15485)",
+      "Bearish: Price near R1 resistance (15822)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.55 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-03-31",
+    "price": 15674.19,
+    "signal": "HOLD",
+    "conviction": 0.513,
+    "regime": "Strong Uptrend",
+    "stop_loss": 15203.96,
+    "take_profit": 16457.9,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "STRONG Bullish: 50/200 Golden Cross",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (15793)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.51 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-04-01",
+    "price": 15533.08,
+    "signal": "HOLD",
+    "conviction": 0.328,
+    "regime": "Strong Uptrend",
+    "stop_loss": 15067.09,
+    "take_profit": 16309.73,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: RSI negative divergence (price up, RSI down)",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (15423)",
+      "Bearish: Price near R1 resistance (15837)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.33 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-04-02",
+    "price": 15434.02,
+    "signal": "HOLD",
+    "conviction": 0.328,
+    "regime": "Strong Uptrend",
+    "stop_loss": 14971.0,
+    "take_profit": 16205.72,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: RSI negative divergence (price up, RSI down)",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (15334)",
+      "Bearish: Price near R1 resistance (15770)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.33 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-04-03",
+    "price": 16431.97,
+    "signal": "HOLD",
+    "conviction": 0.306,
+    "regime": "Strong Uptrend",
+    "stop_loss": 15939.01,
+    "take_profit": 17253.57,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bearish: RSI elevated (63.2)",
+      "Bearish: RSI negative divergence (price up, RSI down)",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.31 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-04-04",
+    "price": 17350.5,
+    "signal": "BUY",
+    "conviction": 0.711,
+    "regime": "Strong Uptrend",
+    "stop_loss": 15765.12,
+    "take_profit": 21313.96,
+    "position_size_pct": 0.2189,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (68.3)",
+      "Bullish: MACD histogram crossed above zero",
+      "Bullish: MACD bullish crossover",
+      "Bearish: Stochastic overbought (90)",
+      "Bullish: Volume surge (1.6x avg) on up day",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (16976)"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-04-07",
+    "price": 17735.78,
+    "signal": "HOLD",
+    "conviction": 0.267,
+    "regime": "Strong Uptrend",
+    "stop_loss": 17203.71,
+    "take_profit": 18622.57,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: RSI overbought at 70.1",
+      "Bearish: Stochastic overbought (93)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (17869)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.27 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-04-08",
+    "price": 18005.08,
+    "signal": "HOLD",
+    "conviction": 0.313,
+    "regime": "Strong Uptrend",
+    "stop_loss": 17464.93,
+    "take_profit": 18905.33,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: RSI overbought at 71.4",
+      "Bearish: Stochastic overbought (99)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price at upper Bollinger Band (potential resistance)",
+      "Bullish: Walking the upper Bollinger Band (strong trend)",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)",
+      "Bearish: Price near R1 resistance (18051)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.31 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-04-09",
+    "price": 17005.15,
+    "signal": "HOLD",
+    "conviction": 0.398,
+    "regime": "Strong Uptrend",
+    "stop_loss": 16495.0,
+    "take_profit": 17855.41,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (61.1)",
+      "Bullish: OBV above its moving average",
+      "Bullish: Walking the upper Bollinger Band (strong trend)",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.40 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-04-10",
+    "price": 16874.66,
+    "signal": "HOLD",
+    "conviction": 0.395,
+    "regime": "Strong Uptrend",
+    "stop_loss": 16368.42,
+    "take_profit": 17718.39,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: RSI negative divergence (price up, RSI down)",
+      "Bullish: OBV above its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.39 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-04-11",
+    "price": 15919.56,
+    "signal": "LEAN SELL",
+    "conviction": 0.369,
+    "regime": "Strong Uptrend",
+    "stop_loss": 17589.63,
+    "take_profit": 11744.39,
+    "position_size_pct": 0.1906,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: MACD histogram crossed below zero",
+      "Bearish: MACD bearish crossover",
+      "Bullish: OBV above its moving average",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)"
+    ],
+    "warnings": [
+      "DISCIPLINE: Selling against uptrend \u2014 reduced conviction"
+    ]
+  },
+  {
+    "date": "2025-04-14",
+    "price": 15304.5,
+    "signal": "HOLD",
+    "conviction": 0.284,
+    "regime": "Strong Uptrend",
+    "stop_loss": 14845.36,
+    "take_profit": 16069.73,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Stochastic oversold (10)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (15301)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.28 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-04-15",
+    "price": 14525.2,
+    "signal": "HOLD",
+    "conviction": 0.284,
+    "regime": "Strong Uptrend",
+    "stop_loss": 14089.44,
+    "take_profit": 15251.46,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Stochastic oversold (9)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (14882)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.28 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-04-16",
+    "price": 13862.14,
+    "signal": "HOLD",
+    "conviction": 0.473,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 13446.28,
+    "take_profit": 14555.25,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Fresh EMA 9/21 death cross",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (38.7)",
+      "Bullish: Stochastic oversold (8)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price at lower Bollinger Band (potential bounce)",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (13936)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.47 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-04-17",
+    "price": 13328.75,
+    "signal": "HOLD",
+    "conviction": 0.376,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 12928.89,
+    "take_profit": 13995.19,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (35.9)",
+      "Bullish: Stochastic oversold (3)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price at lower Bollinger Band (potential bounce)",
+      "Bearish: Walking the lower Bollinger Band (strong downtrend)",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (13247)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.38 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-04-18",
+    "price": 12185.73,
+    "signal": "HOLD",
+    "conviction": 0.349,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11820.16,
+    "take_profit": 12795.02,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (30.9)",
+      "Bullish: Stochastic oversold (1)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price at lower Bollinger Band (potential bounce)",
+      "Bearish: Walking the lower Bollinger Band (strong downtrend)",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S2 strong support (12608)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.35 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-04-21",
+    "price": 12483.64,
+    "signal": "HOLD",
+    "conviction": 0.45,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 12109.13,
+    "take_profit": 13107.82,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (33.5)",
+      "Bullish: Stochastic oversold (6)",
+      "\u26a0 Low volume (0.5x avg) \u2014 weak conviction",
+      "Bearish: OBV below its moving average",
+      "Bearish: Walking the lower Bollinger Band (strong downtrend)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.45 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-04-22",
+    "price": 11438.92,
+    "signal": "HOLD",
+    "conviction": 0.372,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11095.75,
+    "take_profit": 12010.87,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI oversold at 29.3",
+      "Bullish: Stochastic oversold (4)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price at lower Bollinger Band (potential bounce)",
+      "Bearish: Walking the lower Bollinger Band (strong downtrend)",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.37 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-04-23",
+    "price": 11128.4,
+    "signal": "HOLD",
+    "conviction": 0.267,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 10794.55,
+    "take_profit": 11684.82,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI oversold at 28.2",
+      "Bullish: Stochastic oversold (1)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (10734)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.27 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-04-24",
+    "price": 10966.32,
+    "signal": "HOLD",
+    "conviction": 0.39,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 10637.33,
+    "take_profit": 11514.64,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI oversold at 27.6",
+      "Bullish: Stochastic oversold (1)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (10961)",
+      "Bearish: Price near R1 resistance (11412)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.39 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-04-25",
+    "price": 11297.59,
+    "signal": "HOLD",
+    "conviction": 0.302,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 10958.66,
+    "take_profit": 11862.47,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (30.8)",
+      "Bullish: Stochastic oversold (7)",
+      "Bullish: Volume surge (2.1x avg) on up day",
+      "Bearish: OBV below its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R1 resistance (11192)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.30 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-04-28",
+    "price": 10649.67,
+    "signal": "HOLD",
+    "conviction": 0.458,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 10330.18,
+    "take_profit": 11182.15,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI oversold at 28.2",
+      "Bullish: Stochastic oversold (1)",
+      "Bearish: Volume surge (2.4x avg) on down day",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (10928)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.46 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-04-29",
+    "price": 11105.49,
+    "signal": "HOLD",
+    "conviction": 0.45,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 10772.33,
+    "take_profit": 11660.76,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (32.6)",
+      "Bullish: Stochastic oversold (8)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price near R1 resistance (11310)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.45 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-04-30",
+    "price": 11285.26,
+    "signal": "HOLD",
+    "conviction": 0.45,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 10946.7,
+    "take_profit": 11849.52,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (34.3)",
+      "Bullish: Stochastic oversold (11)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price near R1 resistance (11469)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.45 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-01",
+    "price": 10874.62,
+    "signal": "HOLD",
+    "conviction": 0.398,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 10548.38,
+    "take_profit": 11418.35,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (32.3)",
+      "Bullish: Stochastic oversold (5)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (11110)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.40 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-02",
+    "price": 11087.41,
+    "signal": "HOLD",
+    "conviction": 0.45,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 10754.79,
+    "take_profit": 11641.78,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (34.4)",
+      "Bullish: Stochastic oversold (10)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price near R1 resistance (11384)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.45 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-05",
+    "price": 11464.93,
+    "signal": "HOLD",
+    "conviction": 0.386,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11120.98,
+    "take_profit": 12038.18,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (38.1)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price near R1 resistance (11223)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.39 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-06",
+    "price": 11058.42,
+    "signal": "HOLD",
+    "conviction": 0.232,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 10726.67,
+    "take_profit": 11611.34,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (35.8)",
+      "Bullish: Stochastic oversold (14)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (11086)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.23 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-07",
+    "price": 11951.12,
+    "signal": "HOLD",
+    "conviction": 0.72,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11592.59,
+    "take_profit": 12548.68,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bullish: MACD histogram crossed above zero",
+      "Bullish: MACD bullish crossover",
+      "Bearish: OBV below its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R1 resistance (11540)"
+    ],
+    "warnings": [
+      "PATIENCE: Volatile conditions \u2014 need higher conviction"
+    ]
+  },
+  {
+    "date": "2025-05-08",
+    "price": 11906.3,
+    "signal": "HOLD",
+    "conviction": 0.39,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11549.11,
+    "take_profit": 12501.61,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "\u26a0 Low volume (0.4x avg) \u2014 weak conviction",
+      "Bearish: OBV below its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.39 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-09",
+    "price": 11891.31,
+    "signal": "HOLD",
+    "conviction": 0.328,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 11534.57,
+    "take_profit": 12485.88,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (11867)",
+      "Bearish: Price near R1 resistance (11971)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.33 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-12",
+    "price": 10867.94,
+    "signal": "HOLD",
+    "conviction": 0.349,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 10541.9,
+    "take_profit": 11411.34,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (36.9)",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bullish: Stochastic oversold (16)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.35 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-13",
+    "price": 10949.35,
+    "signal": "HOLD",
+    "conviction": 0.271,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 10620.87,
+    "take_profit": 11496.82,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (37.7)",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "\u26a0 Low volume (0.4x avg) \u2014 weak conviction",
+      "Bearish: OBV below its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.27 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-14",
+    "price": 10947.38,
+    "signal": "HOLD",
+    "conviction": 0.291,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 10618.96,
+    "take_profit": 11494.75,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (37.7)",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bearish: OBV below its moving average",
+      "Neutral Pattern: Doji (indecision)",
+      "Bullish: Price near S1 support (10846)",
+      "Bearish: Price near R1 resistance (11032)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.29 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-15",
+    "price": 10449.64,
+    "signal": "HOLD",
+    "conviction": 0.371,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 10136.15,
+    "take_profit": 10972.12,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (34.5)",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bullish: Stochastic oversold (0)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Evening Star (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.37 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-16",
+    "price": 9949.21,
+    "signal": "HOLD",
+    "conviction": 0.509,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 9650.73,
+    "take_profit": 10446.67,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (31.6)",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bearish: MACD histogram crossed below zero",
+      "Bearish: MACD bearish crossover",
+      "Bullish: Stochastic oversold (3)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price at lower Bollinger Band (potential bounce)",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (10235)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.51 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-19",
+    "price": 9771.23,
+    "signal": "HOLD",
+    "conviction": 0.376,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 9478.09,
+    "take_profit": 10259.79,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (30.7)",
+      "Bullish: Stochastic oversold (2)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price at lower Bollinger Band (potential bounce)",
+      "Bearish: Walking the lower Bollinger Band (strong downtrend)",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (9735)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.38 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-20",
+    "price": 9131.2,
+    "signal": "HOLD",
+    "conviction": 0.362,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8857.26,
+    "take_profit": 9587.76,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI oversold at 27.4",
+      "Bullish: Stochastic oversold (3)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price at lower Bollinger Band (potential bounce)",
+      "Bearish: Walking the lower Bollinger Band (strong downtrend)",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.36 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-21",
+    "price": 9316.99,
+    "signal": "HOLD",
+    "conviction": 0.31,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 9037.48,
+    "take_profit": 9782.84,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI oversold at 29.7",
+      "Bullish: Stochastic oversold (9)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Walking the lower Bollinger Band (strong downtrend)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.31 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-22",
+    "price": 8685.07,
+    "signal": "HOLD",
+    "conviction": 0.29,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8424.52,
+    "take_profit": 9119.32,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI oversold at 26.6",
+      "Bullish: Stochastic oversold (7)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price at lower Bollinger Band (potential bounce)",
+      "Bearish: Walking the lower Bollinger Band (strong downtrend)",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S2 strong support (9004)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.29 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-23",
+    "price": 8613.83,
+    "signal": "HOLD",
+    "conviction": 0.31,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8355.42,
+    "take_profit": 9044.52,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI oversold at 26.2",
+      "Bullish: Stochastic oversold (5)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Walking the lower Bollinger Band (strong downtrend)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.31 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-26",
+    "price": 7881.93,
+    "signal": "HOLD",
+    "conviction": 0.362,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 7645.47,
+    "take_profit": 8276.03,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI oversold at 23.0",
+      "Bullish: Stochastic oversold (7)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price at lower Bollinger Band (potential bounce)",
+      "Bearish: Walking the lower Bollinger Band (strong downtrend)",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.36 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-27",
+    "price": 7851.47,
+    "signal": "HOLD",
+    "conviction": 0.179,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 7615.93,
+    "take_profit": 8244.04,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI oversold at 22.9",
+      "Bullish: Stochastic oversold (7)",
+      "\u26a0 Low volume (0.4x avg) \u2014 weak conviction",
+      "Bearish: OBV below its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.18 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-28",
+    "price": 8263.53,
+    "signal": "HOLD",
+    "conviction": 0.23,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8015.62,
+    "take_profit": 8676.71,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI oversold at 28.6",
+      "Bullish: Stochastic oversold (15)",
+      "Bearish: OBV below its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R2 strong resistance (7931)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.23 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-29",
+    "price": 7572.93,
+    "signal": "HOLD",
+    "conviction": 0.295,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 7345.74,
+    "take_profit": 7951.58,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI oversold at 25.2",
+      "Bullish: Stochastic oversold (7)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (7906)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.29 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-05-30",
+    "price": 7769.18,
+    "signal": "HOLD",
+    "conviction": 0.461,
+    "regime": "Strong Downtrend",
+    "stop_loss": 7536.1,
+    "take_profit": 8157.64,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "STRONG Bearish: 50/200 Death Cross",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI oversold at 27.8",
+      "Bullish: Stochastic oversold (14)",
+      "Bearish: OBV below its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.46 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-06-02",
+    "price": 7833.17,
+    "signal": "HOLD",
+    "conviction": 0.225,
+    "regime": "Strong Downtrend",
+    "stop_loss": 7598.17,
+    "take_profit": 8224.83,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI oversold at 28.7",
+      "Bullish: Stochastic oversold (16)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (7569)",
+      "Bearish: Price near R1 resistance (7898)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.22 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-06-03",
+    "price": 8296.05,
+    "signal": "HOLD",
+    "conviction": 0.258,
+    "regime": "Strong Downtrend",
+    "stop_loss": 8047.17,
+    "take_profit": 8710.85,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (34.8)",
+      "Bearish: OBV below its moving average",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.26 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-06-04",
+    "price": 8512.77,
+    "signal": "LEAN BUY",
+    "conviction": 0.407,
+    "regime": "Strong Downtrend",
+    "stop_loss": 7253.04,
+    "take_profit": 11662.09,
+    "position_size_pct": 0.1352,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (37.5)",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bullish: MACD histogram crossed above zero",
+      "Bullish: MACD bullish crossover",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (8535)"
+    ],
+    "warnings": [
+      "DISCIPLINE: Buying against downtrend \u2014 reduced conviction"
+    ]
+  },
+  {
+    "date": "2025-06-05",
+    "price": 8328.98,
+    "signal": "HOLD",
+    "conviction": 0.54,
+    "regime": "Strong Downtrend",
+    "stop_loss": 8079.11,
+    "take_profit": 8745.43,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (36.2)",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (8275)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.54 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-06-06",
+    "price": 8193.24,
+    "signal": "HOLD",
+    "conviction": 0.249,
+    "regime": "Strong Downtrend",
+    "stop_loss": 7947.44,
+    "take_profit": 8602.9,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (35.1)",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (8228)",
+      "Bearish: Price near R1 resistance (8480)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.25 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-06-09",
+    "price": 8359.6,
+    "signal": "LEAN BUY",
+    "conviction": 0.341,
+    "regime": "Strong Downtrend",
+    "stop_loss": 7238.9,
+    "take_profit": 11161.35,
+    "position_size_pct": 0.1492,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (37.5)",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R1 resistance (8380)"
+    ],
+    "warnings": [
+      "DISCIPLINE: Buying against downtrend \u2014 reduced conviction"
+    ]
+  },
+  {
+    "date": "2025-06-10",
+    "price": 8515.11,
+    "signal": "HOLD",
+    "conviction": 0.54,
+    "regime": "Strong Downtrend",
+    "stop_loss": 8259.66,
+    "take_profit": 8940.87,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (39.7)",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (8466)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.54 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-06-11",
+    "price": 8456.94,
+    "signal": "LEAN BUY",
+    "conviction": 0.317,
+    "regime": "Strong Downtrend",
+    "stop_loss": 7437.51,
+    "take_profit": 11005.52,
+    "position_size_pct": 0.1659,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (39.1)",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (8362)",
+      "Bearish: Price near R1 resistance (8638)"
+    ],
+    "warnings": [
+      "DISCIPLINE: Buying against downtrend \u2014 reduced conviction"
+    ]
+  },
+  {
+    "date": "2025-06-12",
+    "price": 8293.04,
+    "signal": "HOLD",
+    "conviction": 0.317,
+    "regime": "Strong Downtrend",
+    "stop_loss": 8044.25,
+    "take_profit": 8707.69,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (37.5)",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bearish: Volume surge (1.7x avg) on down day",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (8407)",
+      "Bearish: Price near R1 resistance (8523)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.32 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-06-13",
+    "price": 8402.72,
+    "signal": "HOLD",
+    "conviction": 0.326,
+    "regime": "Strong Downtrend",
+    "stop_loss": 8150.64,
+    "take_profit": 8822.86,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (39.3)",
+      "Bearish: Stochastic overbought (85)",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (8204)",
+      "Bearish: Price near R1 resistance (8456)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.33 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-06-16",
+    "price": 8168.12,
+    "signal": "HOLD",
+    "conviction": 0.327,
+    "regime": "Strong Downtrend",
+    "stop_loss": 7923.08,
+    "take_profit": 8576.53,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (36.9)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (8309)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.33 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-06-17",
+    "price": 8001.1,
+    "signal": "HOLD",
+    "conviction": 0.35,
+    "regime": "Strong Downtrend",
+    "stop_loss": 7761.07,
+    "take_profit": 8401.16,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (35.2)",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (8018)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.35 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-06-18",
+    "price": 7855.89,
+    "signal": "HOLD",
+    "conviction": 0.315,
+    "regime": "Strong Downtrend",
+    "stop_loss": 7620.21,
+    "take_profit": 8248.68,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (33.8)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (7905)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.32 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-06-19",
+    "price": 8149.11,
+    "signal": "HOLD",
+    "conviction": 0.188,
+    "regime": "Strong Downtrend",
+    "stop_loss": 7904.64,
+    "take_profit": 8556.57,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (39.2)",
+      "Bearish: OBV below its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R1 resistance (7998)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.19 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-06-20",
+    "price": 8638.93,
+    "signal": "HOLD",
+    "conviction": 0.541,
+    "regime": "Strong Downtrend",
+    "stop_loss": 8379.76,
+    "take_profit": 9070.88,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bearish: Price near R2 strong resistance (8569)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.54 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-06-23",
+    "price": 8161.69,
+    "signal": "HOLD",
+    "conviction": 0.215,
+    "regime": "Strong Downtrend",
+    "stop_loss": 7916.84,
+    "take_profit": 8569.77,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bullish: Price near S1 support (8146)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.22 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-06-24",
+    "price": 8311.62,
+    "signal": "HOLD",
+    "conviction": 0.39,
+    "regime": "Strong Downtrend",
+    "stop_loss": 8062.27,
+    "take_profit": 8727.2,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bearish: OBV below its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.39 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-06-25",
+    "price": 8272.67,
+    "signal": "HOLD",
+    "conviction": 0.328,
+    "regime": "Strong Downtrend",
+    "stop_loss": 8024.49,
+    "take_profit": 8686.3,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "\u26a0 Low volume (0.4x avg) \u2014 weak conviction",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (8196)",
+      "Bearish: Price near R1 resistance (8391)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.33 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-06-26",
+    "price": 8018.37,
+    "signal": "HOLD",
+    "conviction": 0.2,
+    "regime": "Downtrend",
+    "stop_loss": 7777.82,
+    "take_profit": 8419.29,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S2 strong support (8234)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.20 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-06-27",
+    "price": 7871.99,
+    "signal": "HOLD",
+    "conviction": 0.396,
+    "regime": "Downtrend",
+    "stop_loss": 7635.83,
+    "take_profit": 8265.59,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (38.5)",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bullish: Stochastic oversold (8)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (7793)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.40 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-06-30",
+    "price": 8284.41,
+    "signal": "HOLD",
+    "conviction": 0.31,
+    "regime": "Downtrend",
+    "stop_loss": 8035.88,
+    "take_profit": 8698.63,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R2 strong resistance (8164)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.31 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-01",
+    "price": 9157.77,
+    "signal": "SELL",
+    "conviction": 0.652,
+    "regime": "Downtrend",
+    "stop_loss": 10232.91,
+    "take_profit": 6469.92,
+    "position_size_pct": 0.1704,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bearish: Price at upper Bollinger Band (potential resistance)",
+      "Bearish: Price near R2 strong resistance (9072)"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-07-02",
+    "price": 9401.08,
+    "signal": "HOLD",
+    "conviction": 0.485,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 9119.05,
+    "take_profit": 9871.13,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Fresh EMA 9/21 golden cross",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: Stochastic overbought (93)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bearish: Price at upper Bollinger Band (potential resistance)",
+      "Bullish: Walking the upper Bollinger Band (strong trend)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.48 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-03",
+    "price": 9392.41,
+    "signal": "HOLD",
+    "conviction": 0.31,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 9110.64,
+    "take_profit": 9862.03,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: Stochastic overbought (92)",
+      "\u26a0 Low volume (0.4x avg) \u2014 weak conviction",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bearish: Price at upper Bollinger Band (potential resistance)",
+      "Bullish: Walking the upper Bollinger Band (strong trend)",
+      "Bullish: Price near S1 support (9187)",
+      "Bearish: Price near R1 resistance (9568)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.31 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-04",
+    "price": 9300.39,
+    "signal": "HOLD",
+    "conviction": 0.249,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 9021.38,
+    "take_profit": 9765.41,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: Stochastic overbought (87)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bullish: Walking the upper Bollinger Band (strong trend)",
+      "Bullish: Price near S1 support (9370)",
+      "Bearish: Price near R1 resistance (9415)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.25 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-07",
+    "price": 9116.88,
+    "signal": "HOLD",
+    "conviction": 0.184,
+    "regime": "Downtrend",
+    "stop_loss": 8843.37,
+    "take_profit": 9572.72,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (9218)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.18 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-08",
+    "price": 9315.2,
+    "signal": "HOLD",
+    "conviction": 0.2,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 9035.74,
+    "take_profit": 9780.96,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: Stochastic overbought (88)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R1 resistance (9305)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.20 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-09",
+    "price": 9152.21,
+    "signal": "HOLD",
+    "conviction": 0.326,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8877.64,
+    "take_profit": 9609.82,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bullish: Price near S1 support (9132)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.33 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-10",
+    "price": 9339.12,
+    "signal": "HOLD",
+    "conviction": 0.52,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 9058.95,
+    "take_profit": 9806.08,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: Stochastic overbought (89)",
+      "Bullish: Volume surge (1.8x avg) on up day",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R1 resistance (9335)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.52 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-11",
+    "price": 9227.94,
+    "signal": "HOLD",
+    "conviction": 0.208,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8951.1,
+    "take_profit": 9689.34,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: Stochastic overbought (84)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bullish: Price near S1 support (9121)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.21 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-14",
+    "price": 9764.53,
+    "signal": "HOLD",
+    "conviction": 0.54,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 9471.59,
+    "take_profit": 10252.76,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (61.6)",
+      "Bearish: Stochastic overbought (85)",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.54 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-15",
+    "price": 9433.71,
+    "signal": "HOLD",
+    "conviction": 0.175,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 9150.7,
+    "take_profit": 9905.4,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.17 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-16",
+    "price": 9114.88,
+    "signal": "HOLD",
+    "conviction": 0.132,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8841.43,
+    "take_profit": 9570.62,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bullish: Price near S1 support (9113)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.13 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-17",
+    "price": 9342.47,
+    "signal": "HOLD",
+    "conviction": 0.474,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 9062.2,
+    "take_profit": 9809.59,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (9513)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.47 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-18",
+    "price": 9342.57,
+    "signal": "HOLD",
+    "conviction": 0.474,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 9062.29,
+    "take_profit": 9809.7,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (9521)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.47 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-21",
+    "price": 9647.09,
+    "signal": "HOLD",
+    "conviction": 0.624,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 9357.68,
+    "take_profit": 10129.44,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)",
+      "Bearish: Price near R1 resistance (9455)"
+    ],
+    "warnings": [
+      "PATIENCE: Volatile conditions \u2014 need higher conviction"
+    ]
+  },
+  {
+    "date": "2025-07-22",
+    "price": 8874.25,
+    "signal": "HOLD",
+    "conviction": 0.171,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8608.02,
+    "take_profit": 9317.96,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S2 strong support (8989)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.17 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-23",
+    "price": 8195.59,
+    "signal": "HOLD",
+    "conviction": 0.419,
+    "regime": "Downtrend",
+    "stop_loss": 7949.72,
+    "take_profit": 8605.37,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (39.8)",
+      "Bearish: MACD histogram crossed below zero",
+      "Bearish: MACD bearish crossover",
+      "Bullish: Stochastic oversold (0)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (8336)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.42 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-24",
+    "price": 7548.37,
+    "signal": "HOLD",
+    "conviction": 0.447,
+    "regime": "Downtrend",
+    "stop_loss": 7321.92,
+    "take_profit": 7925.79,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Fresh EMA 9/21 death cross",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (34.4)",
+      "Bullish: Stochastic oversold (9)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price at lower Bollinger Band (potential bounce)",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S2 strong support (7578)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.45 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-25",
+    "price": 7792.0,
+    "signal": "HOLD",
+    "conviction": 0.234,
+    "regime": "Downtrend",
+    "stop_loss": 7558.24,
+    "take_profit": 8181.6,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (37.8)",
+      "Bullish: Stochastic oversold (18)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bullish: Price at lower Bollinger Band (potential bounce)",
+      "Bearish: Walking the lower Bollinger Band (strong downtrend)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.23 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-28",
+    "price": 7964.33,
+    "signal": "HOLD",
+    "conviction": 0.445,
+    "regime": "Downtrend",
+    "stop_loss": 7725.4,
+    "take_profit": 8362.55,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bearish: Walking the lower Bollinger Band (strong downtrend)",
+      "Bearish: Price near R1 resistance (7907)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.45 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-29",
+    "price": 8667.16,
+    "signal": "HOLD",
+    "conviction": 0.552,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8407.15,
+    "take_profit": 9100.52,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.55 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-30",
+    "price": 8890.91,
+    "signal": "HOLD",
+    "conviction": 0.132,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8624.18,
+    "take_profit": 9335.46,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bearish: Price near R1 resistance (9151)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.13 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-07-31",
+    "price": 8725.56,
+    "signal": "HOLD",
+    "conviction": 0.497,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8463.79,
+    "take_profit": 9161.84,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bullish: Price near S1 support (8675)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.50 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-08-01",
+    "price": 8755.69,
+    "signal": "HOLD",
+    "conviction": 0.3,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8493.02,
+    "take_profit": 9193.47,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bullish: Price near S1 support (8553)",
+      "Bearish: Price near R1 resistance (8932)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.30 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-08-04",
+    "price": 9483.59,
+    "signal": "STRONG BUY",
+    "conviction": 0.894,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8294.11,
+    "take_profit": 12457.3,
+    "position_size_pct": 0.1595,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Fresh EMA 9/21 golden cross",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: MACD histogram crossed above zero",
+      "Bullish: MACD bullish crossover",
+      "Bearish: Stochastic overbought (89)",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Morning Star (strength: 0.8)"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-08-05",
+    "price": 9091.76,
+    "signal": "BUY",
+    "conviction": 0.82,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 7903.14,
+    "take_profit": 12063.32,
+    "position_size_pct": 0.153,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-08-06",
+    "price": 9227.63,
+    "signal": "HOLD",
+    "conviction": 0.474,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8950.8,
+    "take_profit": 9689.01,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (9437)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.47 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-08-07",
+    "price": 8262.47,
+    "signal": "HOLD",
+    "conviction": 0.44,
+    "regime": "Downtrend",
+    "stop_loss": 8014.6,
+    "take_profit": 8675.59,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Fresh EMA 9/21 death cross",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.44 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-08-08",
+    "price": 8815.96,
+    "signal": "HOLD",
+    "conviction": 0.74,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8551.48,
+    "take_profit": 9256.76,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)"
+    ],
+    "warnings": [
+      "PATIENCE: Volatile conditions \u2014 need higher conviction"
+    ]
+  },
+  {
+    "date": "2025-08-11",
+    "price": 8843.6,
+    "signal": "HOLD",
+    "conviction": 0.424,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8578.29,
+    "take_profit": 9285.78,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bearish: Price near R1 resistance (9091)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.42 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-08-12",
+    "price": 9569.86,
+    "signal": "BUY",
+    "conviction": 0.779,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8258.41,
+    "take_profit": 12848.49,
+    "position_size_pct": 0.1459,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Fresh EMA 9/21 golden cross",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: Stochastic overbought (91)",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-08-13",
+    "price": 9916.44,
+    "signal": "HOLD",
+    "conviction": 0.298,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 9618.95,
+    "take_profit": 10412.26,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: Stochastic overbought (99)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (9930)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.30 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-08-14",
+    "price": 9529.76,
+    "signal": "HOLD",
+    "conviction": 0.479,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 9243.87,
+    "take_profit": 10006.25,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (9610)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.48 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-08-15",
+    "price": 9552.73,
+    "signal": "BUY",
+    "conviction": 0.76,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8333.01,
+    "take_profit": 12602.03,
+    "position_size_pct": 0.1566,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-08-18",
+    "price": 9084.41,
+    "signal": "HOLD",
+    "conviction": 0.304,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8811.88,
+    "take_profit": 9538.63,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.30 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-08-19",
+    "price": 8409.46,
+    "signal": "HOLD",
+    "conviction": 0.273,
+    "regime": "Downtrend",
+    "stop_loss": 8157.18,
+    "take_profit": 8829.93,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: MACD histogram crossed below zero",
+      "Bearish: MACD bearish crossover",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bullish: Price near S2 strong support (8411)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.27 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-08-20",
+    "price": 8350.76,
+    "signal": "LEAN SELL",
+    "conviction": 0.635,
+    "regime": "Downtrend",
+    "stop_loss": 9611.93,
+    "take_profit": 5197.83,
+    "position_size_pct": 0.1324,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Fresh EMA 9/21 death cross",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-08-21",
+    "price": 8495.68,
+    "signal": "HOLD",
+    "conviction": 0.17,
+    "regime": "Downtrend",
+    "stop_loss": 8240.81,
+    "take_profit": 8920.46,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (8317)",
+      "Bearish: Price near R1 resistance (8414)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.17 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-08-22",
+    "price": 8479.25,
+    "signal": "HOLD",
+    "conviction": 0.355,
+    "regime": "Downtrend",
+    "stop_loss": 8224.87,
+    "take_profit": 8903.21,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (8347)",
+      "Bearish: Price near R1 resistance (8605)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.35 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-08-25",
+    "price": 8887.11,
+    "signal": "HOLD",
+    "conviction": 0.42,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8620.5,
+    "take_profit": 9331.47,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.42 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-08-26",
+    "price": 8956.37,
+    "signal": "HOLD",
+    "conviction": 0.04,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8687.68,
+    "take_profit": 9404.19,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.04 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-08-27",
+    "price": 8711.81,
+    "signal": "HOLD",
+    "conviction": 0.286,
+    "regime": "Downtrend",
+    "stop_loss": 8450.46,
+    "take_profit": 9147.4,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (8885)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.29 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-08-28",
+    "price": 8620.12,
+    "signal": "HOLD",
+    "conviction": 0.271,
+    "regime": "Downtrend",
+    "stop_loss": 8361.52,
+    "take_profit": 9051.13,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bullish: Price near S1 support (8498)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.27 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-08-29",
+    "price": 8493.44,
+    "signal": "HOLD",
+    "conviction": 0.454,
+    "regime": "Downtrend",
+    "stop_loss": 8238.64,
+    "take_profit": 8918.11,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Stochastic oversold (15)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (8540)",
+      "Bearish: Price near R1 resistance (8727)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.45 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-09-01",
+    "price": 8349.18,
+    "signal": "HOLD",
+    "conviction": 0.477,
+    "regime": "Downtrend",
+    "stop_loss": 8098.7,
+    "take_profit": 8766.64,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Stochastic oversold (7)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (8380)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.48 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-09-02",
+    "price": 8645.15,
+    "signal": "HOLD",
+    "conviction": 0.162,
+    "regime": "Downtrend",
+    "stop_loss": 8385.8,
+    "take_profit": 9077.41,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R1 resistance (8471)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.16 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-09-03",
+    "price": 8618.2,
+    "signal": "SELL",
+    "conviction": 0.76,
+    "regime": "Downtrend",
+    "stop_loss": 9533.42,
+    "take_profit": 6330.16,
+    "position_size_pct": 0.1883,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-09-04",
+    "price": 8593.31,
+    "signal": "SELL",
+    "conviction": 0.682,
+    "regime": "Downtrend",
+    "stop_loss": 9454.82,
+    "take_profit": 6439.53,
+    "position_size_pct": 0.1995,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bullish: Price near S1 support (8579)",
+      "Bearish: Price near R1 resistance (8661)"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-09-05",
+    "price": 8408.68,
+    "signal": "HOLD",
+    "conviction": 0.477,
+    "regime": "Downtrend",
+    "stop_loss": 8156.42,
+    "take_profit": 8829.11,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Stochastic oversold (15)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (8553)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.48 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-09-08",
+    "price": 8250.14,
+    "signal": "HOLD",
+    "conviction": 0.477,
+    "regime": "Downtrend",
+    "stop_loss": 8002.64,
+    "take_profit": 8662.65,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Stochastic oversold (7)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (8303)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.48 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-09-09",
+    "price": 8356.25,
+    "signal": "HOLD",
+    "conviction": 0.579,
+    "regime": "Downtrend",
+    "stop_loss": 8105.56,
+    "take_profit": 8774.06,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Stochastic oversold (18)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price near R1 resistance (8444)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.58 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-09-10",
+    "price": 8573.36,
+    "signal": "HOLD",
+    "conviction": 0.273,
+    "regime": "Downtrend",
+    "stop_loss": 8316.16,
+    "take_profit": 9002.03,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: Volume surge (1.5x avg) on up day",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price near R1 resistance (8427)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.27 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-09-11",
+    "price": 7557.51,
+    "signal": "HOLD",
+    "conviction": 0.52,
+    "regime": "Downtrend",
+    "stop_loss": 7330.78,
+    "take_profit": 7935.39,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (35.6)",
+      "Bullish: Stochastic oversold (17)",
+      "Bearish: Volume surge (1.7x avg) on down day",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price at lower Bollinger Band (potential bounce)",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.52 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-09-12",
+    "price": 7969.59,
+    "signal": "SELL",
+    "conviction": 0.76,
+    "regime": "Downtrend",
+    "stop_loss": 8981.57,
+    "take_profit": 5439.65,
+    "position_size_pct": 0.1575,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-09-15",
+    "price": 8161.41,
+    "signal": "SELL",
+    "conviction": 0.81,
+    "regime": "Downtrend",
+    "stop_loss": 9133.52,
+    "take_profit": 5731.13,
+    "position_size_pct": 0.1679,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price near R1 resistance (8218)"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-09-16",
+    "price": 8311.33,
+    "signal": "HOLD",
+    "conviction": 0.188,
+    "regime": "Downtrend",
+    "stop_loss": 8061.99,
+    "take_profit": 8726.9,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)",
+      "Bearish: Price near R1 resistance (8244)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.19 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-09-17",
+    "price": 8082.39,
+    "signal": "LEAN SELL",
+    "conviction": 0.633,
+    "regime": "Downtrend",
+    "stop_loss": 8997.82,
+    "take_profit": 5793.83,
+    "position_size_pct": 0.1766,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (8185)"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-09-18",
+    "price": 8379.18,
+    "signal": "HOLD",
+    "conviction": 0.404,
+    "regime": "Downtrend",
+    "stop_loss": 8127.8,
+    "take_profit": 8798.14,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R1 resistance (8299)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.40 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-09-19",
+    "price": 8244.11,
+    "signal": "HOLD",
+    "conviction": 0.463,
+    "regime": "Downtrend",
+    "stop_loss": 7996.79,
+    "take_profit": 8656.32,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bullish: MACD histogram crossed above zero",
+      "Bullish: MACD bullish crossover",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (8115)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.46 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-09-22",
+    "price": 8277.38,
+    "signal": "HOLD",
+    "conviction": 0.09,
+    "regime": "Downtrend",
+    "stop_loss": 8029.06,
+    "take_profit": 8691.25,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (8125)",
+      "Bearish: Price near R1 resistance (8406)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.09 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-09-23",
+    "price": 8003.74,
+    "signal": "HOLD",
+    "conviction": 0.569,
+    "regime": "Downtrend",
+    "stop_loss": 7763.63,
+    "take_profit": 8403.93,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S2 strong support (8214)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.57 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-09-24",
+    "price": 8307.77,
+    "signal": "HOLD",
+    "conviction": 0.404,
+    "regime": "Downtrend",
+    "stop_loss": 8058.54,
+    "take_profit": 8723.16,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R1 resistance (8314)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.40 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-09-25",
+    "price": 7825.74,
+    "signal": "SELL",
+    "conviction": 0.735,
+    "regime": "Downtrend",
+    "stop_loss": 8727.53,
+    "take_profit": 5571.27,
+    "position_size_pct": 0.1736,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: MACD histogram crossed below zero",
+      "Bearish: MACD bearish crossover",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (7985)"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-09-26",
+    "price": 7654.68,
+    "signal": "HOLD",
+    "conviction": 0.206,
+    "regime": "Downtrend",
+    "stop_loss": 7425.04,
+    "take_profit": 8037.41,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (7559)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.21 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-09-29",
+    "price": 7736.73,
+    "signal": "HOLD",
+    "conviction": 0.355,
+    "regime": "Downtrend",
+    "stop_loss": 7504.63,
+    "take_profit": 8123.57,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (7584)",
+      "Bearish: Price near R1 resistance (7781)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.35 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-09-30",
+    "price": 7551.45,
+    "signal": "HOLD",
+    "conviction": 0.232,
+    "regime": "Downtrend",
+    "stop_loss": 7324.91,
+    "take_profit": 7929.02,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (39.4)",
+      "Bullish: Stochastic oversold (17)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (7630)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.23 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-10-01",
+    "price": 7342.28,
+    "signal": "HOLD",
+    "conviction": 0.593,
+    "regime": "Downtrend",
+    "stop_loss": 7122.01,
+    "take_profit": 7709.39,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (37.0)",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bullish: Stochastic oversold (0)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price at lower Bollinger Band (potential bounce)",
+      "Bullish: Price near S1 support (7422)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.59 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-10-02",
+    "price": 7078.61,
+    "signal": "HOLD",
+    "conviction": 0.376,
+    "regime": "Strong Downtrend",
+    "stop_loss": 6866.25,
+    "take_profit": 7432.54,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (34.1)",
+      "Bullish: Stochastic oversold (8)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price at lower Bollinger Band (potential bounce)",
+      "Bearish: Walking the lower Bollinger Band (strong downtrend)",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (7262)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.38 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-10-03",
+    "price": 7308.87,
+    "signal": "SELL",
+    "conviction": 0.7,
+    "regime": "Strong Downtrend",
+    "stop_loss": 8107.48,
+    "take_profit": 5312.34,
+    "position_size_pct": 0.183,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (38.6)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Walking the lower Bollinger Band (strong downtrend)",
+      "Bearish: Price near R1 resistance (7364)"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-10-06",
+    "price": 7611.9,
+    "signal": "HOLD",
+    "conviction": 0.132,
+    "regime": "Strong Downtrend",
+    "stop_loss": 7383.54,
+    "take_profit": 7992.49,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bearish: Price near R1 resistance (7461)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.13 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-10-07",
+    "price": 7203.22,
+    "signal": "HOLD",
+    "conviction": 0.398,
+    "regime": "Strong Downtrend",
+    "stop_loss": 6987.12,
+    "take_profit": 7563.38,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Lean Bullish: RSI approaching oversold (39.0)",
+      "Bullish: Stochastic oversold (16)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (7268)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.40 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-10-08",
+    "price": 7331.57,
+    "signal": "SELL",
+    "conviction": 0.76,
+    "regime": "Strong Downtrend",
+    "stop_loss": 8182.17,
+    "take_profit": 5205.07,
+    "position_size_pct": 0.1724,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-10-09",
+    "price": 7280.8,
+    "signal": "HOLD",
+    "conviction": 0.579,
+    "regime": "Strong Downtrend",
+    "stop_loss": 7062.38,
+    "take_profit": 7644.84,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (7196)",
+      "Bearish: Price near R1 resistance (7445)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.58 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-10-10",
+    "price": 7325.12,
+    "signal": "HOLD",
+    "conviction": 0.579,
+    "regime": "Strong Downtrend",
+    "stop_loss": 7105.37,
+    "take_profit": 7691.38,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (7199)",
+      "Bearish: Price near R1 resistance (7390)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.58 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-10-13",
+    "price": 7275.12,
+    "signal": "SELL",
+    "conviction": 0.714,
+    "regime": "Strong Downtrend",
+    "stop_loss": 8008.15,
+    "take_profit": 5442.54,
+    "position_size_pct": 0.1985,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "\u26a0 Low volume (0.4x avg) \u2014 weak conviction",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (7261)",
+      "Bearish: Price near R1 resistance (7378)"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-10-14",
+    "price": 7683.05,
+    "signal": "HOLD",
+    "conviction": 0.559,
+    "regime": "Strong Downtrend",
+    "stop_loss": 7452.56,
+    "take_profit": 8067.2,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: MACD histogram crossed above zero",
+      "Bullish: MACD bullish crossover",
+      "Bearish: OBV below its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.56 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-10-15",
+    "price": 7981.8,
+    "signal": "HOLD",
+    "conviction": 0.24,
+    "regime": "Strong Downtrend",
+    "stop_loss": 7742.35,
+    "take_profit": 8380.89,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: Stochastic overbought (87)",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price falling but OBV rising (accumulation)",
+      "Bearish: Price near R1 resistance (8009)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.24 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-10-16",
+    "price": 7932.14,
+    "signal": "HOLD",
+    "conviction": 0.321,
+    "regime": "Strong Downtrend",
+    "stop_loss": 7694.18,
+    "take_profit": 8328.75,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: Stochastic overbought (83)",
+      "Bullish: OBV above its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.32 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-10-17",
+    "price": 7924.04,
+    "signal": "HOLD",
+    "conviction": 0.519,
+    "regime": "Downtrend",
+    "stop_loss": 7686.32,
+    "take_profit": 8320.24,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: Stochastic overbought (82)",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (7888)",
+      "Bearish: Price near R1 resistance (7986)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.52 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-10-20",
+    "price": 8180.98,
+    "signal": "LEAN BUY",
+    "conviction": 0.393,
+    "regime": "Downtrend",
+    "stop_loss": 7459.6,
+    "take_profit": 9984.43,
+    "position_size_pct": 0.2268,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Fresh EMA 9/21 golden cross",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: Stochastic overbought (97)",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)"
+    ],
+    "warnings": [
+      "DISCIPLINE: Buying against downtrend \u2014 reduced conviction"
+    ]
+  },
+  {
+    "date": "2025-10-21",
+    "price": 7780.15,
+    "signal": "HOLD",
+    "conviction": 0.206,
+    "regime": "Downtrend",
+    "stop_loss": 7546.75,
+    "take_profit": 8169.16,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (7949)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.21 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-10-22",
+    "price": 7625.89,
+    "signal": "HOLD",
+    "conviction": 0.472,
+    "regime": "Downtrend",
+    "stop_loss": 7397.11,
+    "take_profit": 8007.18,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Fresh EMA 9/21 death cross",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bullish: Price near S1 support (7445)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.47 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-10-23",
+    "price": 7374.84,
+    "signal": "HOLD",
+    "conviction": 0.416,
+    "regime": "Downtrend",
+    "stop_loss": 7153.59,
+    "take_profit": 7743.58,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (7553)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.42 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-10-24",
+    "price": 7601.01,
+    "signal": "HOLD",
+    "conviction": 0.299,
+    "regime": "Downtrend",
+    "stop_loss": 7372.98,
+    "take_profit": 7981.06,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price near R1 resistance (7642)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.30 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-10-27",
+    "price": 7367.46,
+    "signal": "HOLD",
+    "conviction": 0.428,
+    "regime": "Downtrend",
+    "stop_loss": 7146.44,
+    "take_profit": 7735.83,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (7387)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.43 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-10-28",
+    "price": 7629.61,
+    "signal": "HOLD",
+    "conviction": 0.217,
+    "regime": "Downtrend",
+    "stop_loss": 7400.72,
+    "take_profit": 8011.09,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R1 resistance (7625)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.22 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-10-29",
+    "price": 7195.21,
+    "signal": "LEAN SELL",
+    "conviction": 0.62,
+    "regime": "Downtrend",
+    "stop_loss": 8024.51,
+    "take_profit": 5121.97,
+    "position_size_pct": 0.1735,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: RSI positive divergence (price down, RSI up)",
+      "Bearish: MACD histogram crossed below zero",
+      "Bearish: MACD bearish crossover",
+      "Bullish: Stochastic oversold (17)",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S2 strong support (7200)"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-10-30",
+    "price": 7583.02,
+    "signal": "LEAN BUY",
+    "conviction": 0.303,
+    "regime": "Downtrend",
+    "stop_loss": 6708.69,
+    "take_profit": 9768.84,
+    "position_size_pct": 0.1735,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: MACD histogram crossed above zero",
+      "Bullish: MACD bullish crossover",
+      "Bullish: Volume surge (1.5x avg) on up day",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (7647)"
+    ],
+    "warnings": [
+      "DISCIPLINE: Buying against downtrend \u2014 reduced conviction"
+    ]
+  },
+  {
+    "date": "2025-10-31",
+    "price": 7414.37,
+    "signal": "SELL",
+    "conviction": 0.82,
+    "regime": "Downtrend",
+    "stop_loss": 8258.22,
+    "take_profit": 5304.74,
+    "position_size_pct": 0.1757,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-11-03",
+    "price": 7709.93,
+    "signal": "HOLD",
+    "conviction": 0.217,
+    "regime": "Downtrend",
+    "stop_loss": 7478.63,
+    "take_profit": 8095.43,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R1 resistance (7554)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.22 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-11-04",
+    "price": 7621.78,
+    "signal": "HOLD",
+    "conviction": 0.424,
+    "regime": "Downtrend",
+    "stop_loss": 7393.13,
+    "take_profit": 8002.87,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bullish: Price near S1 support (7469)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.42 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-11-05",
+    "price": 7596.04,
+    "signal": "HOLD",
+    "conviction": 0.54,
+    "regime": "Downtrend",
+    "stop_loss": 7368.16,
+    "take_profit": 7975.84,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bullish: Price near S1 support (7549)",
+      "Bearish: Price near R1 resistance (7711)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.54 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-11-06",
+    "price": 7449.63,
+    "signal": "SELL",
+    "conviction": 0.721,
+    "regime": "Downtrend",
+    "stop_loss": 8194.93,
+    "take_profit": 5586.39,
+    "position_size_pct": 0.1999,
+    "risk_reward": 2.5,
+    "reasons": [
+      "Bearish: Price below EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (7554)"
+    ],
+    "warnings": []
+  },
+  {
+    "date": "2025-11-07",
+    "price": 7624.4,
+    "signal": "HOLD",
+    "conviction": 0.434,
+    "regime": "Downtrend",
+    "stop_loss": 7395.67,
+    "take_profit": 8005.62,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R1 resistance (7611)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.43 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-11-10",
+    "price": 7999.8,
+    "signal": "HOLD",
+    "conviction": 0.369,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 7759.81,
+    "take_profit": 8399.79,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Fresh EMA 9/21 golden cross",
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: Stochastic overbought (94)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bearish: Price near R2 strong resistance (7859)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.37 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-11-11",
+    "price": 7736.49,
+    "signal": "HOLD",
+    "conviction": 0.162,
+    "regime": "Downtrend",
+    "stop_loss": 7504.4,
+    "take_profit": 8123.31,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bullish: Price near S1 support (7640)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.16 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-11-12",
+    "price": 7744.84,
+    "signal": "HOLD",
+    "conviction": 0.08,
+    "regime": "Downtrend",
+    "stop_loss": 7512.49,
+    "take_profit": 8132.08,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.08 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-11-13",
+    "price": 7696.82,
+    "signal": "HOLD",
+    "conviction": 0.351,
+    "regime": "Downtrend",
+    "stop_loss": 7465.92,
+    "take_profit": 8081.66,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (7734)",
+      "Bearish: Price near R1 resistance (7755)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.35 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-11-14",
+    "price": 7854.48,
+    "signal": "HOLD",
+    "conviction": 0.428,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 7618.85,
+    "take_profit": 8247.2,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bearish: Price below Parabolic SAR",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bearish: Price near R1 resistance (7754)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.43 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-11-17",
+    "price": 8642.77,
+    "signal": "HOLD",
+    "conviction": 0.267,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8383.49,
+    "take_profit": 9074.91,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (64.2)",
+      "Bearish: Stochastic overbought (89)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bearish: Price at upper Bollinger Band (potential resistance)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.27 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-11-18",
+    "price": 9002.65,
+    "signal": "HOLD",
+    "conviction": 0.405,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8732.57,
+    "take_profit": 9452.78,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (68.0)",
+      "Bearish: Stochastic overbought (96)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price at upper Bollinger Band (potential resistance)",
+      "Bullish: Walking the upper Bollinger Band (strong trend)",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)",
+      "Bearish: Price near R1 resistance (9012)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.41 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-11-19",
+    "price": 8972.65,
+    "signal": "HOLD",
+    "conviction": 0.33,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8703.47,
+    "take_profit": 9421.28,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (67.3)",
+      "Bearish: Stochastic overbought (93)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price at upper Bollinger Band (potential resistance)",
+      "Bullish: Walking the upper Bollinger Band (strong trend)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.33 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-11-20",
+    "price": 9059.53,
+    "signal": "HOLD",
+    "conviction": 0.51,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8787.74,
+    "take_profit": 9512.51,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (68.2)",
+      "Bearish: Stochastic overbought (96)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price at upper Bollinger Band (potential resistance)",
+      "Bullish: Walking the upper Bollinger Band (strong trend)",
+      "Bullish Pattern: Bullish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (8946)",
+      "Bearish: Price near R1 resistance (9018)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.51 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-11-21",
+    "price": 8941.89,
+    "signal": "HOLD",
+    "conviction": 0.403,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8673.63,
+    "take_profit": 9388.98,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (65.6)",
+      "Bearish: Stochastic overbought (87)",
+      "Bullish: OBV above its moving average",
+      "Bullish: Walking the upper Bollinger Band (strong trend)",
+      "Bearish Pattern: Bearish Engulfing (strength: 0.8)",
+      "Bullish: Price near S1 support (8962)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.40 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-11-24",
+    "price": 8891.5,
+    "signal": "HOLD",
+    "conviction": 0.479,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8624.75,
+    "take_profit": 9336.08,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (64.4)",
+      "Bearish: Stochastic overbought (84)",
+      "Bullish: OBV above its moving average",
+      "Bullish: Price near S1 support (8851)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.48 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-11-25",
+    "price": 8843.79,
+    "signal": "HOLD",
+    "conviction": 0.476,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8578.48,
+    "take_profit": 9285.98,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (63.2)",
+      "Bearish: Stochastic overbought (81)",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)",
+      "Bullish: Price near S1 support (8866)",
+      "Bearish: Price near R1 resistance (8939)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.48 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-11-26",
+    "price": 8586.75,
+    "signal": "HOLD",
+    "conviction": 0.552,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8329.15,
+    "take_profit": 9016.09,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bearish Pattern: Three Black Crows (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.55 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-11-27",
+    "price": 8597.28,
+    "signal": "HOLD",
+    "conviction": 0.357,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8339.36,
+    "take_profit": 9027.14,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: OBV below its moving average",
+      "Bearish: Price rising but OBV declining (distribution)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.36 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-11-28",
+    "price": 9004.82,
+    "signal": "HOLD",
+    "conviction": 0.12,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 8734.68,
+    "take_profit": 9455.06,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Lean Bearish: RSI elevated (63.7)",
+      "Bearish: Stochastic overbought (85)",
+      "Bearish: OBV below its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.12 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-12-01",
+    "price": 9558.51,
+    "signal": "HOLD",
+    "conviction": 0.29,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 9271.75,
+    "take_profit": 10036.44,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: RSI overbought at 70.1",
+      "Bearish: Stochastic overbought (91)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price rising but OBV declining (distribution)",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)",
+      "Bearish: Price near R1 resistance (9374)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.29 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-12-02",
+    "price": 9718.95,
+    "signal": "HOLD",
+    "conviction": 0.378,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 9427.38,
+    "take_profit": 10204.9,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: RSI overbought at 71.7",
+      "Bearish: Stochastic overbought (99)",
+      "Bullish: Volume surge (1.5x avg) on up day",
+      "Bullish: OBV above its moving average"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.38 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-12-03",
+    "price": 9798.48,
+    "signal": "HOLD",
+    "conviction": 0.267,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 9504.53,
+    "take_profit": 10288.4,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: RSI overbought at 72.5",
+      "Bearish: Stochastic overbought (97)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price near R1 resistance (9815)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.27 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-12-04",
+    "price": 10199.93,
+    "signal": "HOLD",
+    "conviction": 0.367,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 9893.93,
+    "take_profit": 10709.93,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: RSI overbought at 76.0",
+      "Bearish: Stochastic overbought (92)",
+      "Bullish: OBV above its moving average",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.37 < 0.6)"
+    ]
+  },
+  {
+    "date": "2025-12-05",
+    "price": 10698.06,
+    "signal": "HOLD",
+    "conviction": 0.313,
+    "regime": "Volatile / Uncertain",
+    "stop_loss": 10377.12,
+    "take_profit": 11232.96,
+    "position_size_pct": 0.0,
+    "risk_reward": 0.0,
+    "reasons": [
+      "Bullish: Price above EMA 9/21 stack",
+      "Bullish: Price above Parabolic SAR",
+      "Bearish: RSI overbought at 79.5",
+      "Bearish: Stochastic overbought (97)",
+      "Bullish: OBV above its moving average",
+      "Bearish: Price at upper Bollinger Band (potential resistance)",
+      "Bullish: Walking the upper Bollinger Band (strong trend)",
+      "Bullish Pattern: Three White Soldiers (strength: 0.8)",
+      "Bearish: Price near R1 resistance (10525)"
+    ],
+    "warnings": [
+      "PATIENCE: Conviction too low (0.31 < 0.6)"
+    ]
+  }
+]
