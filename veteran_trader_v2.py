@@ -219,7 +219,8 @@ def load_data(filepath: str) -> list[OHLCV]:
                     close=float(row[col_map["close"]].replace(",", "")),
                     volume=int(float(row[col_map["volume"]].replace(",", ""))),
                 ))
-            except (ValueError, KeyError):
+            except (ValueError, KeyError) as e:
+                print(f"  WARNING: Skipping row {reader.line_num} in {filepath}: {e}")
                 continue
 
     if len(rows) < 50:
@@ -721,6 +722,20 @@ class SmartMoneyAnalyzer:
         self.config = config
         self.n = len(data)
         self.smt_data = smt_data
+
+        # Build date-aligned SMT index: maps each primary bar index to its
+        # corresponding SMT bar (or None if that date is absent in smt_data).
+        if smt_data:
+            smt_by_date = {bar.date: bar for bar in smt_data}
+            self.smt_aligned: list[Optional[OHLCV]] = [
+                smt_by_date.get(bar.date) for bar in data
+            ]
+            missing = sum(1 for x in self.smt_aligned if x is None)
+            if missing > 0:
+                print(f"  WARNING: SMT data is missing {missing} dates that exist "
+                      f"in primary data — those bars will be skipped in cross-asset SMT")
+        else:
+            self.smt_aligned = []
 
         # Detected structures
         self.fvgs: list[list[FairValueGap]] = [[] for _ in range(self.n)]
