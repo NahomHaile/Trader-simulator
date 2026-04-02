@@ -113,6 +113,8 @@ def run_backtest(data: list[OHLCV], config: TraderConfig,
     entry_idx = 0
 
     daily_returns = []
+    consecutive_losses = 0
+    cooldown_remaining = 0
 
     for idx, sig in enumerate(signals):
         price = sig.price
@@ -121,9 +123,9 @@ def run_backtest(data: list[OHLCV], config: TraderConfig,
         if in_position:
             hit_stop = False
             hit_tp = False
-            actual_high = data[sig.date_to_idx(data) if hasattr(sig, 'date_to_idx') else idx + trader.n - len(signals)].high
-            actual_low = data[idx + trader.n - len(signals)].low
             bar_idx = idx + trader.n - len(signals)
+            actual_high = data[bar_idx].high
+            actual_low = data[bar_idx].low
 
             if position_type == PositionType.LONG:
                 if actual_low <= stop_loss:
@@ -185,7 +187,20 @@ def run_backtest(data: list[OHLCV], config: TraderConfig,
                 result.trades.append(trade)
 
                 current_capital += pnl
+                trader.current_capital = current_capital
                 in_position = False
+
+                # Track consecutive losses for cooldown
+                if pnl <= 0:
+                    consecutive_losses += 1
+                    if consecutive_losses >= config.max_consecutive_losses:
+                        cooldown_remaining = config.cooldown_after_streak
+                        consecutive_losses = 0
+                else:
+                    consecutive_losses = 0
+
+                if cooldown_remaining > 0:
+                    cooldown_remaining -= 1
 
         # Track equity
         result.equity_curve.append(current_capital)
@@ -204,7 +219,7 @@ def run_backtest(data: list[OHLCV], config: TraderConfig,
                 daily_returns.append((current_capital - prev_eq) / prev_eq)
 
         # Entry conditions
-        if not in_position:
+        if not in_position and cooldown_remaining == 0:
             is_buy = sig.signal in (Signal.STRONG_BUY, Signal.BUY)
             is_sell = sig.signal in (Signal.STRONG_SELL, Signal.SELL)
 

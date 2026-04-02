@@ -1239,6 +1239,7 @@ class VeteranTrader:
         self.signals: list[TradeSignal] = []
         self.consecutive_losses = 0
         self.cooldown_remaining = 0
+        self.current_capital = config.starting_capital
 
     def analyze(self) -> list[TradeSignal]:
         start_idx = min(200, self.n - 1)
@@ -1921,7 +1922,7 @@ class VeteranTrader:
         rr_ratio = self.config.take_profit_ratio
         risk_per_share = abs(price - stop_loss)
         if risk_per_share > 0:
-            capital = self.config.starting_capital
+            capital = self.current_capital
             max_risk_dollars = capital * self.config.max_risk_per_trade
             shares = max_risk_dollars / risk_per_share
             position_value = shares * price
