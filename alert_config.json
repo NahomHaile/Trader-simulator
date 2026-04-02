@@ -1,6 +1,6 @@
 {
   "desktop_notifications": true,
-  "discord_webhook_url": "https://discordapp.com/api/webhooks/1487338123661672540/HIW5nrY_P6oyHfp6MJrX9Z8cY3uA26vhJNkGYZKjOF9Wa8vfp4rSkujzuUM8M98ahJk0",
+  "discord_webhook_url": "",
   "telegram_bot_token": "",
   "telegram_chat_id": "",
   "alert_on": {

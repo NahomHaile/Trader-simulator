@@ -1152,23 +1152,30 @@ class SmartMoneyAnalyzer:
         """
         Compare swing structure between primary and correlated asset.
         E.g., QQQ makes new high but SPY doesn't = bearish SMT divergence.
+        Uses date-aligned lookup so array length differences don't corrupt comparisons.
         """
-        if not self.smt_data or len(self.smt_data) < self.n:
+        if not self.smt_aligned:
             return
 
-        smt_highs = self.smt_data
         lb = self.config.swing_lookback
 
-        for i in range(lb + 20, min(self.n, len(smt_highs))):
-            # Check if primary makes new high but SMT asset doesn't
+        for i in range(lb + 20, self.n):
+            smt_bar = self.smt_aligned[i]
+            if smt_bar is None:
+                continue
+
             lookback_range = range(max(0, i - 20), i)
 
+            # Skip if any bar in the lookback window has no SMT counterpart
+            smt_lookback = [self.smt_aligned[j] for j in lookback_range]
+            if any(b is None for b in smt_lookback):
+                continue
+
             primary_high = max(self.data[j].high for j in lookback_range)
-            smt_high = max(smt_highs[j].high for j in lookback_range)
+            smt_high = max(b.high for b in smt_lookback)
 
             if self.data[i].high > primary_high:
-                # Primary made new high
-                if smt_highs[i].high < smt_high:
+                if smt_bar.high < smt_high:
                     self.smt_divergences[i].append(SMTDivergence(
                         index=i, type="bearish",
                         description="Cross-asset: primary new high, correlated asset failed",
@@ -1176,10 +1183,10 @@ class SmartMoneyAnalyzer:
                     ))
 
             primary_low = min(self.data[j].low for j in lookback_range)
-            smt_low = min(smt_highs[j].low for j in lookback_range)
+            smt_low = min(b.low for b in smt_lookback)
 
             if self.data[i].low < primary_low:
-                if smt_highs[i].low > smt_low:
+                if smt_bar.low > smt_low:
                     self.smt_divergences[i].append(SMTDivergence(
                         index=i, type="bullish",
                         description="Cross-asset: primary new low, correlated asset held",

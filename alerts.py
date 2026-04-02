@@ -354,8 +354,8 @@ def run_alerts(csv_path: str, alert_config: dict, smt_path: str = None):
     if alert_config.get("desktop_notifications", True):
         send_desktop_notification(alert["title"], alert["body"])
 
-    # Discord
-    discord_url = alert_config.get("discord_webhook_url", "")
+    # Discord — env var takes priority over config file
+    discord_url = os.environ.get("DISCORD_WEBHOOK_URL") or alert_config.get("discord_webhook_url", "")
     if discord_url:
         send_discord_alert(discord_url, alert)
 
@@ -384,7 +384,7 @@ def main():
             "Veteran Trader — Test",
             "If you see this, desktop notifications are working!"
         )
-        discord_url = config.get("discord_webhook_url", "")
+        discord_url = os.environ.get("DISCORD_WEBHOOK_URL") or config.get("discord_webhook_url", "")
         if discord_url:
             send_discord_alert(discord_url, {
                 "title": "Test Alert",

@@ -115,6 +115,7 @@ def run_backtest(data: list[OHLCV], config: TraderConfig,
     daily_returns = []
     consecutive_losses = 0
     cooldown_remaining = 0
+    open_risk_dollars = 0.0  # dollars at risk from the current open position
 
     for idx, sig in enumerate(signals):
         price = sig.price
@@ -188,6 +189,7 @@ def run_backtest(data: list[OHLCV], config: TraderConfig,
 
                 current_capital += pnl
                 trader.current_capital = current_capital
+                open_risk_dollars = 0.0
                 in_position = False
 
                 # Track consecutive losses for cooldown
@@ -238,15 +240,28 @@ def run_backtest(data: list[OHLCV], config: TraderConfig,
                 else:
                     position_type = PositionType.SHORT
 
-                # Position sizing
+                # Position sizing with portfolio heat enforcement
                 risk_per_share = abs(price - stop_loss)
                 if risk_per_share > 0:
                     max_risk = current_capital * config.max_risk_per_trade
                     shares = max_risk / risk_per_share
                     max_shares = (current_capital * config.max_position_pct) / price
                     shares = min(shares, max_shares)
+
+                    # Enforce portfolio heat limit: total open risk <= max_portfolio_heat
+                    heat_capacity = current_capital * config.max_portfolio_heat
+                    allowable_risk = max(0.0, heat_capacity - open_risk_dollars)
+                    heat_capped_shares = allowable_risk / risk_per_share
+                    if heat_capped_shares < shares:
+                        shares = heat_capped_shares
+
+                    if shares <= 0:
+                        in_position = False  # heat limit full — skip this entry
+                    else:
+                        open_risk_dollars = risk_per_share * shares
                 else:
                     shares = 0
+                    in_position = False
 
     # Close any open position at end
     if in_position and len(signals) > 0:
