@@ -123,14 +123,14 @@ class RewardCalculator:
     # Bonus just for completing (closing) a trade
     CLOSE_BONUS       = 0.01
     # Hard cooldown between trades (bars) — enforced in TradingEnv, not reward
-    ENTRY_COOLDOWN_BARS = 10
+    ENTRY_COOLDOWN_BARS = 30
 
     def __init__(
         self,
         pnl_weight:          float = 1.5,
         drawdown_penalty:    float = 1.5,
         holding_penalty:     float = 0.0,
-        overtrading_penalty: float = 0.02,
+        overtrading_penalty: float = 0.05,
         win_bonus:           float = 0.02,
         rr_bonus_weight:     float = 0.01,
     ):
@@ -179,20 +179,37 @@ class RewardCalculator:
             if self._trade_cooldown == 0:
                 self._recent_trades = max(0, self._recent_trades - 1)
 
-        if self._recent_trades > 2:
-            # Quadratic scaling — 3 trades costs 3x, 5 trades costs 5x harder
+        if self._recent_trades > 1:
+            # Quadratic scaling — kicks in after just 1 trade in the cooldown window
             reward -= self.overtrading_penalty * (self._recent_trades ** 2)
 
-        # 7. Trade completion bonus + win/R:R bonus on closes
-        # Rewards the agent for actually completing trades, not just opening them
+        # 7. Trade completion bonus + tiered return bonuses on closes
         if was_trade and action == TradeAction.CLOSE_POSITION:
             reward += self.CLOSE_BONUS
             last_trade = account.trade_history[-1] if account.trade_history else None
             if last_trade and last_trade.get('pnl', 0) > 0:
                 reward += self.win_bonus
                 pnl_pct = last_trade['pnl'] / max(account.balance, 1.0)
-                if pnl_pct > 0.02:   # 2R+ bonus
+
+                # Tiered return bonuses — each tier stacks on top of the previous
+                # Encourages the agent to hold through strong moves instead of exiting early
+                if pnl_pct > 0.01:   # > 1%  — decent winner
+                    reward += 0.05
+                if pnl_pct > 0.02:   # > 2%  — solid winner (old single bonus)
                     reward += self.rr_bonus_weight * (pnl_pct / 0.02)
+                if pnl_pct > 0.04:   # > 4%  — strong winner
+                    reward += 0.10
+                if pnl_pct > 0.08:   # > 8%  — home run trade
+                    reward += 0.20
+
+        # 8. Continuous equity growth bonus
+        # Rewards the agent each step that overall portfolio return is positive,
+        # scaled by how large the gain is — reinforces compounding good runs
+        portfolio_return = (account.equity - account.initial_balance) / (account.initial_balance + 1e-9)
+        if portfolio_return > 0.05:   # > 5% up on the episode
+            reward += 0.02 * portfolio_return
+        if portfolio_return > 0.10:  # > 10% up — extra push to keep growing
+            reward += 0.05 * portfolio_return
 
         return reward
 
