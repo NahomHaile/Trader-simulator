@@ -112,6 +112,19 @@ class RewardCalculator:
     Reward shaping tuned for swing trading (4H candles, hold days–weeks).
     """
 
+    # Max bars a position can be held before forced close
+    MAX_HOLD_BARS     = 90
+    # Bars held before overstay penalty ramps up
+    OVERSTAY_BARS     = 60
+    OVERSTAY_RATE     = 0.001   # penalty per bar beyond OVERSTAY_BARS
+    # Bars flat before inactivity nudge
+    INACTIVITY_BARS   = 30
+    INACTIVITY_RATE   = 0.0005  # penalty per bar beyond INACTIVITY_BARS
+    # Bonus just for completing (closing) a trade
+    CLOSE_BONUS       = 0.01
+    # Hard cooldown between trades (bars) — enforced in TradingEnv, not reward
+    ENTRY_COOLDOWN_BARS = 10
+
     def __init__(
         self,
         pnl_weight:          float = 1.5,
@@ -131,7 +144,8 @@ class RewardCalculator:
         self._trade_cooldown     = 0
 
     def calculate(self, pnl_change: float, account: AccountState,
-                  action: int, was_trade: bool) -> float:
+                  action: int, was_trade: bool,
+                  bars_in_position: int = 0, bars_flat: int = 0) -> float:
         reward = 0.0
 
         # 1. PnL signal
@@ -146,7 +160,17 @@ class RewardCalculator:
         if account.position is not None:
             reward -= self.holding_penalty
 
-        # 4. Overtrading penalty with cooldown
+        # 4. Overstay penalty — ramps up after OVERSTAY_BARS
+        # Prevents hold-forever exploit: agent must learn to exit
+        if bars_in_position > self.OVERSTAY_BARS:
+            reward -= self.OVERSTAY_RATE * (bars_in_position - self.OVERSTAY_BARS)
+
+        # 5. Inactivity penalty — nudge after INACTIVITY_BARS flat
+        # Prevents park-in-cash exploit: agent must keep engaging
+        if bars_flat > self.INACTIVITY_BARS:
+            reward -= self.INACTIVITY_RATE * (bars_flat - self.INACTIVITY_BARS)
+
+        # 6. Overtrading penalty with cooldown
         if was_trade:
             self._recent_trades += 1
             self._trade_cooldown = 12
@@ -156,15 +180,18 @@ class RewardCalculator:
                 self._recent_trades = max(0, self._recent_trades - 1)
 
         if self._recent_trades > 2:
-            reward -= self.overtrading_penalty * self._recent_trades
+            # Quadratic scaling — 3 trades costs 3x, 5 trades costs 5x harder
+            reward -= self.overtrading_penalty * (self._recent_trades ** 2)
 
-        # 5. Win bonus + R:R bonus on profitable closes
+        # 7. Trade completion bonus + win/R:R bonus on closes
+        # Rewards the agent for actually completing trades, not just opening them
         if was_trade and action == TradeAction.CLOSE_POSITION:
+            reward += self.CLOSE_BONUS
             last_trade = account.trade_history[-1] if account.trade_history else None
             if last_trade and last_trade.get('pnl', 0) > 0:
                 reward += self.win_bonus
                 pnl_pct = last_trade['pnl'] / max(account.balance, 1.0)
-                if pnl_pct > 0.02:
+                if pnl_pct > 0.02:   # 2R+ bonus
                     reward += self.rr_bonus_weight * (pnl_pct / 0.02)
 
         return reward
@@ -223,18 +250,22 @@ class TradingEnv(gym.Env):
             dtype=np.float32,
         )
 
-        self.account      = self._fresh_account()
-        self.reward_calc  = RewardCalculator()
-        self.current_step = 0
+        self.account         = self._fresh_account()
+        self.reward_calc     = RewardCalculator()
+        self.current_step    = 0
+        self._bars_flat      = 0    # bars elapsed with no open position
+        self._entry_cooldown = 0    # bars remaining before next entry is allowed
         self._current_market_data  = {}
         self._current_ict_signals  = {}
 
     # ── gym interface ─────────────────────────────────────────────────────────
     def reset(self, seed=None, options=None):
         super().reset(seed=seed)
-        self.account      = self._fresh_account()
-        self.reward_calc.reset()   # ← fix: was leaking trade cooldown between episodes
-        self.current_step = 0
+        self.account         = self._fresh_account()
+        self.reward_calc.reset()
+        self.current_step    = 0
+        self._bars_flat      = 0
+        self._entry_cooldown = 0
         self.data_feed.reset(seed=seed)
         self._update_market_state()
         return ObservationBuilder.build(
@@ -256,6 +287,12 @@ class TradingEnv(gym.Env):
         if not self._passes_filter(trade_decision, setup_filter):
             trade_decision = TradeAction.HOLD
 
+        # Hard cooldown — block new entries for ENTRY_COOLDOWN_BARS after close
+        if self._entry_cooldown > 0:
+            self._entry_cooldown -= 1
+            if trade_decision in (TradeAction.LONG_ENTRY, TradeAction.SHORT_ENTRY):
+                trade_decision = TradeAction.HOLD
+
         # Execute trade
         if trade_decision == TradeAction.LONG_ENTRY and self.account.position is None:
             self._open_position('long', size_pct)
@@ -265,7 +302,29 @@ class TradingEnv(gym.Env):
             was_trade = True
         elif trade_decision == TradeAction.CLOSE_POSITION and self.account.position is not None:
             self._close_position()
+            self._entry_cooldown = RewardCalculator.ENTRY_COOLDOWN_BARS
             was_trade = True
+
+        # Force-close if held too long — prevents hold-forever exploit
+        if self.account.position is not None:
+            bars_held = self.current_step - self.account.position.entry_step
+            if bars_held >= RewardCalculator.MAX_HOLD_BARS:
+                self._close_position()
+                self._entry_cooldown = RewardCalculator.ENTRY_COOLDOWN_BARS
+                was_trade = True
+                action = (TradeAction.CLOSE_POSITION, action[1], action[2])
+
+        # Track bars with no position (for inactivity penalty)
+        if self.account.position is None:
+            self._bars_flat += 1
+        else:
+            self._bars_flat = 0
+
+        # Capture position duration before advancing (used in reward)
+        bars_in_position = (
+            self.current_step - self.account.position.entry_step
+            if self.account.position else 0
+        )
 
         # Advance market — always safe: data_feed.step() is clamped
         self.current_step += 1
@@ -276,7 +335,9 @@ class TradingEnv(gym.Env):
         # Reward
         pnl_change = self.account.equity - prev_equity
         reward = self.reward_calc.calculate(
-            pnl_change, self.account, action[0], was_trade
+            pnl_change, self.account, action[0], was_trade,
+            bars_in_position=bars_in_position,
+            bars_flat=self._bars_flat,
         )
 
         # Termination

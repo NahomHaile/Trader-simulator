@@ -104,3 +104,21 @@ class CSVDataFeed:
             }
             for _, r in rows.iterrows()
         ]
+
+    @property
+    def n_rows(self) -> int:
+        return len(self.df)
+
+
+class HistoricalDataFeed(CSVDataFeed):
+    """
+    Convenience subclass with a from_csv() factory method.
+    Used by evaluate.py.
+    """
+
+    @classmethod
+    def from_csv(cls, path: str, randomize_start: bool = True) -> "HistoricalDataFeed":
+        df = pd.read_csv(path, parse_dates=["Date"])
+        df.sort_values("Date", inplace=True)
+        df.reset_index(drop=True, inplace=True)
+        return cls(df, random_start=randomize_start)
