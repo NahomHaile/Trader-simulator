@@ -123,7 +123,7 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python live_fetch.py                                      # NASDAQ Composite
+  python live_fetch.py                                      # QQQ (default)
   python live_fetch.py --ticker QQQ                         # QQQ
   python live_fetch.py --ticker QQQ --smt-compare SPY       # QQQ vs SPY divergence
   python live_fetch.py --ticker AAPL MSFT NVDA              # Multiple tickers
@@ -131,8 +131,8 @@ Examples:
   python live_fetch.py --ticker QQQ --capital 25000         # Custom capital
         """,
     )
-    parser.add_argument("--ticker", nargs="+", default=["^IXIC"],
-                        help="Yahoo Finance ticker(s). Default: ^IXIC (NASDAQ Composite)")
+    parser.add_argument("--ticker", nargs="+", default=["QQQ"],
+                        help="Yahoo Finance ticker(s). Default: QQQ")
     parser.add_argument("--period", default="2y",
                         help="How far back. Options: 1mo, 3mo, 6mo, 1y, 2y, 5y, max")
     parser.add_argument("--smt-compare", default=None,
