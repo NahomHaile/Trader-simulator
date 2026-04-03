@@ -57,11 +57,9 @@ class TradeMetricsCallback(BaseCallback):
 
 # ── Environment factory ───────────────────────────────────────────────────────
 def make_env(data_path: str, initial_balance: float = 10_000.0,
-             randomize_start: bool = True):
+             randomize_start: bool = True, max_steps: int = 200):
     def _init():
         feed = HistoricalDataFeed.from_csv(data_path, randomize_start=randomize_start)
-        # max_steps: full usable data length so episodes can run the whole dataset
-        max_steps = max(1, feed.n_rows - HistoricalDataFeed.HISTORY_LEN - 1)
         env = TradingEnv(
             data_feed       = feed,
             ict_detector    = ICTSignalAdapter(),

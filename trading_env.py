@@ -113,10 +113,10 @@ class RewardCalculator:
     """
 
     # Max bars a position can be held before forced close
-    MAX_HOLD_BARS     = 90
+    MAX_HOLD_BARS     = 180
     # Bars held before overstay penalty ramps up
-    OVERSTAY_BARS     = 60
-    OVERSTAY_RATE     = 0.001   # penalty per bar beyond OVERSTAY_BARS
+    OVERSTAY_BARS     = 120
+    OVERSTAY_RATE     = 0.0003  # penalty per bar beyond OVERSTAY_BARS
     # Bars flat before inactivity nudge
     INACTIVITY_BARS   = 30
     INACTIVITY_RATE   = 0.0005  # penalty per bar beyond INACTIVITY_BARS
@@ -170,18 +170,16 @@ class RewardCalculator:
         if bars_flat > self.INACTIVITY_BARS:
             reward -= self.INACTIVITY_RATE * (bars_flat - self.INACTIVITY_BARS)
 
-        # 6. Overtrading penalty with cooldown
+        # 6. Overtrading penalty — fires only at trade time, not every step
         if was_trade:
             self._recent_trades += 1
-            self._trade_cooldown = 12
+            self._trade_cooldown = RewardCalculator.ENTRY_COOLDOWN_BARS
+            if self._recent_trades > 1:
+                reward -= self.overtrading_penalty * (self._recent_trades ** 2)
         elif self._trade_cooldown > 0:
             self._trade_cooldown -= 1
             if self._trade_cooldown == 0:
                 self._recent_trades = max(0, self._recent_trades - 1)
-
-        if self._recent_trades > 1:
-            # Quadratic scaling — kicks in after just 1 trade in the cooldown window
-            reward -= self.overtrading_penalty * (self._recent_trades ** 2)
 
         # 7. Trade completion bonus + tiered return bonuses on closes
         if was_trade and action == TradeAction.CLOSE_POSITION:
@@ -242,7 +240,7 @@ class TradingEnv(gym.Env):
 
     metadata = {"render_modes": ["human", "log"]}
 
-    SIZE_MAP   = {0: 0.02, 1: 0.03, 2: 0.05, 3: 0.08}
+    SIZE_MAP   = {0: 0.10, 1: 0.20, 2: 0.40, 3: 0.60}
     FILTER_MAP = {0: 'any', 1: 'fvg_only', 2: 'ob_only', 3: 'confluence'}
 
     def __init__(
@@ -311,12 +309,12 @@ class TradingEnv(gym.Env):
                 trade_decision = TradeAction.HOLD
 
         # Execute trade
+        # SHORT_ENTRY disabled — QQQ is a long-biased asset, shorting hurts win rate
         if trade_decision == TradeAction.LONG_ENTRY and self.account.position is None:
             self._open_position('long', size_pct)
             was_trade = True
-        elif trade_decision == TradeAction.SHORT_ENTRY and self.account.position is None:
-            self._open_position('short', size_pct)
-            was_trade = True
+        elif trade_decision == TradeAction.SHORT_ENTRY:
+            trade_decision = TradeAction.HOLD  # treat as hold
         elif trade_decision == TradeAction.CLOSE_POSITION and self.account.position is not None:
             self._close_position()
             self._entry_cooldown = RewardCalculator.ENTRY_COOLDOWN_BARS
@@ -332,7 +330,8 @@ class TradingEnv(gym.Env):
                 action = (TradeAction.CLOSE_POSITION, action[1], action[2])
 
         # Track bars with no position (for inactivity penalty)
-        if self.account.position is None:
+        # Don't count cooldown bars — agent physically can't trade during cooldown
+        if self.account.position is None and self._entry_cooldown == 0:
             self._bars_flat += 1
         else:
             self._bars_flat = 0
