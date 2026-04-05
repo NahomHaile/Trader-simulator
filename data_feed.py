@@ -118,7 +118,31 @@ class HistoricalDataFeed(CSVDataFeed):
 
     @classmethod
     def from_csv(cls, path: str, randomize_start: bool = True) -> "HistoricalDataFeed":
-        df = pd.read_csv(path, parse_dates=["Date"])
+        # Detect yfinance multi-header format by checking row 1 for "Ticker"
+        peek = pd.read_csv(path, nrows=3, header=None)
+        is_yfinance_multiheader = str(peek.iloc[1, 0]).lower() == "ticker"
+
+        if is_yfinance_multiheader:
+            # Row 0: Price, Close, High, Low, Open, Volume
+            # Row 1: Ticker, QQQ, QQQ, ...
+            # Row 2: Datetime, , , ...
+            # Data starts row 3. Skip rows 1 and 2, first col "Price" has datetimes.
+            df = pd.read_csv(path, skiprows=[1, 2])
+            df.rename(columns={df.columns[0]: "Date"}, inplace=True)
+        else:
+            df = pd.read_csv(path)
+            if "Datetime" in df.columns:
+                df.rename(columns={"Datetime": "Date"}, inplace=True)
+
+        df["Date"] = pd.to_datetime(df["Date"], utc=False, errors="coerce")
+        # Strip timezone if present
+        if hasattr(df["Date"].dt, "tz") and df["Date"].dt.tz is not None:
+            df["Date"] = df["Date"].dt.tz_localize(None)
+        df.dropna(subset=["Date"], inplace=True)
+
+        # Normalise column names to Title case (Close, High, Low, Open, Volume)
+        df.columns = [c.strip().title() if c != "Date" else "Date" for c in df.columns]
+
         df.sort_values("Date", inplace=True)
         df.reset_index(drop=True, inplace=True)
         return cls(df, random_start=randomize_start)

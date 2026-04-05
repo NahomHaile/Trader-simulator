@@ -1,0 +1,204 @@
+{
+  "timestamp": "2026-04-05T18:19:00.831018",
+  "model": "checkpoints/best_model",
+  "data": "QQQ_1h_2y.csv",
+  "train_end": "2025-07-01",
+  "train_bars": 2165,
+  "test_bars": 1316,
+  "test_start": "2025-07-01",
+  "test_end": "2026-04-02",
+  "verdict": "PASS",
+  "summary": {
+    "avg_agent_return": 7.112430288887123,
+    "avg_buyhold_return": -2.7151365324197654,
+    "avg_excess_return": 9.827566821306888,
+    "profitable_pct": 0.95,
+    "beats_market_pct": 1.0,
+    "avg_win_rate": 0.5816666666666666,
+    "avg_max_drawdown": 2.7908541673737015,
+    "avg_sharpe": 1.0843386562391844,
+    "avg_trades": 3.45
+  },
+  "episodes": [
+    {
+      "agent_return": 12.892674679032678,
+      "buyhold_return": 3.33704566643553,
+      "beats_market": true,
+      "total_trades": 6,
+      "win_rate": 0.6666666666666666,
+      "max_drawdown": 4.15509857490663,
+      "sharpe_ratio": 0.9811815743352841
+    },
+    {
+      "agent_return": 5.023052256883566,
+      "buyhold_return": -4.175606474668795,
+      "beats_market": true,
+      "total_trades": 2,
+      "win_rate": 0.5,
+      "max_drawdown": 1.7428578761025462,
+      "sharpe_ratio": 1.512344716864694
+    },
+    {
+      "agent_return": 6.462213755421126,
+      "buyhold_return": -3.0576145561030055,
+      "beats_market": true,
+      "total_trades": 3,
+      "win_rate": 0.6666666666666666,
+      "max_drawdown": 1.7428578761025462,
+      "sharpe_ratio": 1.4160653440102948
+    },
+    {
+      "agent_return": 8.154161629429018,
+      "buyhold_return": -3.3299670913819144,
+      "beats_market": true,
+      "total_trades": 4,
+      "win_rate": 0.5,
+      "max_drawdown": 4.15509857490663,
+      "sharpe_ratio": 0.9380125076194601
+    },
+    {
+      "agent_return": 7.774547618318757,
+      "buyhold_return": -4.267925169836805,
+      "beats_market": true,
+      "total_trades": 4,
+      "win_rate": 0.5,
+      "max_drawdown": 4.15509857490663,
+      "sharpe_ratio": 0.8909435569504653
+    },
+    {
+      "agent_return": 0.6826231438159084,
+      "buyhold_return": -2.597571541449447,
+      "beats_market": true,
+      "total_trades": 2,
+      "win_rate": 0.5,
+      "max_drawdown": 1.672135392714623,
+      "sharpe_ratio": 0.3611189946751106
+    },
+    {
+      "agent_return": 11.19173893687006,
+      "buyhold_return": 3.7475842438888907,
+      "beats_market": true,
+      "total_trades": 6,
+      "win_rate": 0.6666666666666666,
+      "max_drawdown": 4.15509857490663,
+      "sharpe_ratio": 0.8482195551827906
+    },
+    {
+      "agent_return": 7.749247740926475,
+      "buyhold_return": -5.670627377913654,
+      "beats_market": true,
+      "total_trades": 2,
+      "win_rate": 1.0,
+      "max_drawdown": 1.7428578761025462,
+      "sharpe_ratio": 1.851962819617252
+    },
+    {
+      "agent_return": 9.760237703151542,
+      "buyhold_return": 3.9217623180591827,
+      "beats_market": true,
+      "total_trades": 5,
+      "win_rate": 0.8,
+      "max_drawdown": 4.15509857490663,
+      "sharpe_ratio": 0.8341004137003201
+    },
+    {
+      "agent_return": 12.933933704691261,
+      "buyhold_return": 3.1730165968383206,
+      "beats_market": true,
+      "total_trades": 6,
+      "win_rate": 0.6666666666666666,
+      "max_drawdown": 4.15509857490663,
+      "sharpe_ratio": 0.986773035575666
+    },
+    {
+      "agent_return": 7.026772793046638,
+      "buyhold_return": -5.815674973149928,
+      "beats_market": true,
+      "total_trades": 4,
+      "win_rate": 0.5,
+      "max_drawdown": 2.6445804769856895,
+      "sharpe_ratio": 1.2108024919329556
+    },
+    {
+      "agent_return": -0.9992141057001935,
+      "buyhold_return": -2.557008153843662,
+      "beats_market": true,
+      "total_trades": 1,
+      "win_rate": 0.0,
+      "max_drawdown": 1.672135392714623,
+      "sharpe_ratio": -1.2323783031064066
+    },
+    {
+      "agent_return": 6.5849087030190825,
+      "buyhold_return": -6.743613036754353,
+      "beats_market": true,
+      "total_trades": 2,
+      "win_rate": 0.5,
+      "max_drawdown": 1.7428578761025462,
+      "sharpe_ratio": 1.7007834221879032
+    },
+    {
+      "agent_return": 5.272839779788974,
+      "buyhold_return": -5.932282326470142,
+      "beats_market": true,
+      "total_trades": 2,
+      "win_rate": 0.5,
+      "max_drawdown": 1.7428578761025462,
+      "sharpe_ratio": 1.5055389754072686
+    },
+    {
+      "agent_return": 7.749247740926475,
+      "buyhold_return": -5.891815874447808,
+      "beats_market": true,
+      "total_trades": 2,
+      "win_rate": 1.0,
+      "max_drawdown": 1.7428578761025462,
+      "sharpe_ratio": 1.9077113490205808
+    },
+    {
+      "agent_return": 6.018370371509773,
+      "buyhold_return": -6.1112060820029255,
+      "beats_market": true,
+      "total_trades": 2,
+      "win_rate": 0.5,
+      "max_drawdown": 1.7428578761025462,
+      "sharpe_ratio": 1.901550896454962
+    },
+    {
+      "agent_return": 6.641709973901961,
+      "buyhold_return": -6.033540509559137,
+      "beats_market": true,
+      "total_trades": 4,
+      "win_rate": 0.5,
+      "max_drawdown": 2.6445804769856895,
+      "sharpe_ratio": 1.0834488758454242
+    },
+    {
+      "agent_return": 11.742923521141947,
+      "buyhold_return": 3.789008657465621,
+      "beats_market": true,
+      "total_trades": 6,
+      "win_rate": 0.6666666666666666,
+      "max_drawdown": 4.15509857490663,
+      "sharpe_ratio": 0.9305989690687405
+    },
+    {
+      "agent_return": 2.9522559869323777,
+      "buyhold_return": -4.791666873619431,
+      "beats_market": true,
+      "total_trades": 2,
+      "win_rate": 0.5,
+      "max_drawdown": 1.7428578761025462,
+      "sharpe_ratio": 1.2185507978599737
+    },
+    {
+      "agent_return": 6.634359844635,
+      "buyhold_return": -5.295028089881844,
+      "beats_market": true,
+      "total_trades": 4,
+      "win_rate": 0.5,
+      "max_drawdown": 4.15509857490663,
+      "sharpe_ratio": 0.8394431315809486
+    }
+  ]
+}
