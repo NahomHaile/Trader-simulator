@@ -169,15 +169,27 @@ class AlpacaClient:
         ]
 
     def submit_order(self, symbol: str, notional: float, side: str,
-                     order_type: str = "market", tif: str = "day") -> dict:
-        """Place a fractional dollar-based market order. notional = dollar amount."""
-        body = {
-            "symbol":        symbol,
-            "notional":      str(round(notional, 2)),
-            "side":          side,
-            "type":          order_type,
-            "time_in_force": tif,
-        }
+                     order_type: str = "market", tif: str = "day",
+                     price: float = None) -> dict:
+        """Place a market order. Longs use fractional notional; shorts use whole share qty."""
+        if side == "sell" and price:
+            # Alpaca does not allow fractional short orders — use whole share qty
+            qty = max(1, int(notional / price))
+            body = {
+                "symbol":        symbol,
+                "qty":           str(qty),
+                "side":          side,
+                "type":          order_type,
+                "time_in_force": tif,
+            }
+        else:
+            body = {
+                "symbol":        symbol,
+                "notional":      str(round(notional, 2)),
+                "side":          side,
+                "type":          order_type,
+                "time_in_force": tif,
+            }
         return self._request("POST", f"{PAPER_BASE}/orders", body)
 
     def close_position(self, symbol: str) -> dict:
@@ -478,7 +490,7 @@ def run_once(symbol: str, model, vec_env, client: AlpacaClient,
         notional = round(sizing_capital * size_pct, 2)
         log(f"  {'[DRY RUN] ' if dry_run else ''}SELL SHORT ${notional:.2f} of {symbol} @ ~${price:,.2f}")
         if not dry_run:
-            order = client.submit_order(symbol, notional, "sell")
+            order = client.submit_order(symbol, notional, "sell", price=price)
             log(f"    Order ID: {order.get('id', 'N/A')}")
         step_counter[1] = 0
 
