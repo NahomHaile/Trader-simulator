@@ -168,12 +168,12 @@ class AlpacaClient:
             for idx, row in df.iterrows()
         ]
 
-    def submit_order(self, symbol: str, qty: float, side: str,
+    def submit_order(self, symbol: str, notional: float, side: str,
                      order_type: str = "market", tif: str = "day") -> dict:
-        """Place a market order. side = 'buy' | 'sell'."""
+        """Place a fractional dollar-based market order. notional = dollar amount."""
         body = {
             "symbol":        symbol,
-            "qty":           str(round(qty, 0)),
+            "notional":      str(round(notional, 2)),
             "side":          side,
             "type":          order_type,
             "time_in_force": tif,
@@ -383,7 +383,7 @@ def load_keys() -> tuple[str, str]:
 
 
 def run_once(symbol: str, model, vec_env, client: AlpacaClient,
-             dry_run: bool, step_counter: list):
+             dry_run: bool, step_counter: list, capital_override: float = None):
     """Run one decision cycle: observe → predict → execute."""
 
     log("")
@@ -464,19 +464,21 @@ def run_once(symbol: str, model, vec_env, client: AlpacaClient,
     price  = current_bar["close"]
     has_position = bool(position and float(position["qty"]) != 0)
 
+    sizing_capital = capital_override if capital_override else equity
+
     if trade_decision == 1 and not has_position:      # LONG
-        qty = max(1, int((equity * size_pct) / price))
-        log(f"  {'[DRY RUN] ' if dry_run else ''}BUY {qty} shares of {symbol} @ ~${price:,.2f}")
+        notional = round(sizing_capital * size_pct, 2)
+        log(f"  {'[DRY RUN] ' if dry_run else ''}BUY ${notional:.2f} of {symbol} @ ~${price:,.2f}")
         if not dry_run:
-            order = client.submit_order(symbol, qty, "buy")
+            order = client.submit_order(symbol, notional, "buy")
             log(f"    Order ID: {order.get('id', 'N/A')}")
         step_counter[1] = 0
 
     elif trade_decision == 2 and not has_position:    # SHORT
-        qty = max(1, int((equity * size_pct) / price))
-        log(f"  {'[DRY RUN] ' if dry_run else ''}SELL SHORT {qty} shares of {symbol} @ ~${price:,.2f}")
+        notional = round(sizing_capital * size_pct, 2)
+        log(f"  {'[DRY RUN] ' if dry_run else ''}SELL SHORT ${notional:.2f} of {symbol} @ ~${price:,.2f}")
         if not dry_run:
-            order = client.submit_order(symbol, qty, "sell")
+            order = client.submit_order(symbol, notional, "sell")
             log(f"    Order ID: {order.get('id', 'N/A')}")
         step_counter[1] = 0
 
@@ -499,16 +501,14 @@ def run_once(symbol: str, model, vec_env, client: AlpacaClient,
         log(f"  ICT signals: {', '.join(active)}")
 
     # ── 8. Save daily record ───────────────────────────────────────────
-    executed_qty = 0
-    if trade_decision in (1, 2) and not has_position:
-        executed_qty = max(1, int((equity * size_pct) / price))
+    notional_executed = round(equity * size_pct, 2) if trade_decision in (1, 2) and not has_position else 0.0
     save_daily_record(
         date         = current_bar.get("timestamp", "")[:10],
         symbol       = symbol,
         action       = action_name,
         equity       = equity,
         price        = price,
-        qty          = executed_qty,
+        qty          = notional_executed,
         has_position = has_position or trade_decision in (1, 2),
         pnl          = float(position.get("unrealized_pl", 0.0)) if position else 0.0,
     )
@@ -531,6 +531,8 @@ def main():
     parser.add_argument("--loop",     action="store_true",    help="Loop once per day (default: run once)")
     parser.add_argument("--interval", type=int, default=86400,help="Loop interval in seconds (default: 86400 = 1 day)")
     parser.add_argument("--dry-run",  action="store_true",    help="Print actions, don't submit orders")
+    parser.add_argument("--capital",  type=float, default=None,
+                        help="Override capital for position sizing (e.g. 20 for $20 account)")
     args = parser.parse_args()
 
     vecnorm_path = args.vecnorm or (args.model + "_vecnormalize.pkl")
@@ -570,13 +572,13 @@ def main():
         print(f"  Running in loop mode (every {args.interval}s). Ctrl+C to stop.")
         while True:
             try:
-                run_once(args.symbol, model, vec_env, client, args.dry_run, step_counter)
+                run_once(args.symbol, model, vec_env, client, args.dry_run, step_counter, args.capital)
             except Exception as e:
                 print(f"  ERROR in cycle: {e}")
             print(f"  Sleeping {args.interval}s until next bar...")
             time.sleep(args.interval)
     else:
-        run_once(args.symbol, model, vec_env, client, args.dry_run, step_counter)
+        run_once(args.symbol, model, vec_env, client, args.dry_run, step_counter, args.capital)
         print("  Done. Run with --loop to run continuously, or schedule daily via Task Scheduler.")
 
 
