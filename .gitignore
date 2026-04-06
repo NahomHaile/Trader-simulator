@@ -28,3 +28,5 @@ __pycache__/
 # Checkpoints & logs (large files)
 checkpoints/
 logs/
+paper_trade_log.txt
+paper_trade_history.json

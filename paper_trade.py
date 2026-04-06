@@ -32,6 +32,73 @@ from collections import deque
 
 import numpy as np
 
+LOG_FILE     = os.path.join(os.path.dirname(os.path.abspath(__file__)), "paper_trade_log.txt")
+HISTORY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "paper_trade_history.json")
+
+def log(msg: str):
+    """Write to both console and log file."""
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    line = f"[{timestamp}] {msg}"
+    print(line)
+    with open(LOG_FILE, "a", encoding="utf-8") as f:
+        f.write(line + "\n")
+
+def save_daily_record(date: str, symbol: str, action: str, equity: float,
+                      price: float, qty: int, has_position: bool, pnl: float = 0.0):
+    """Append today's result to the history JSON file."""
+    history = []
+    if os.path.exists(HISTORY_FILE):
+        with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+            history = json.load(f)
+    history.append({
+        "date":         date,
+        "symbol":       symbol,
+        "action":       action,
+        "equity":       equity,
+        "price":        price,
+        "qty":          qty,
+        "has_position": has_position,
+        "unrealized_pnl": pnl,
+    })
+    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+        json.dump(history, f, indent=2)
+
+def weekly_summary():
+    """Log a weekly performance summary every Friday."""
+    if not os.path.exists(HISTORY_FILE):
+        return
+    with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+        history = json.load(f)
+    if len(history) < 2:
+        return
+
+    # Last 5 trading days
+    week = history[-5:] if len(history) >= 5 else history
+    start_equity = week[0]["equity"]
+    end_equity   = week[-1]["equity"]
+    week_pnl     = end_equity - start_equity
+    week_pct     = (week_pnl / start_equity) * 100
+
+    trades  = [r for r in week if r["action"] in ("LONG", "SHORT", "CLOSE")]
+    entries = [r for r in week if r["action"] in ("LONG", "SHORT")]
+
+    # All-time stats
+    all_start  = history[0]["equity"]
+    all_pnl    = end_equity - all_start
+    all_pct    = (all_pnl / all_start) * 100
+    all_trades = [r for r in history if r["action"] in ("LONG", "SHORT")]
+
+    log("")
+    log("  ======== WEEKLY SUMMARY ========")
+    log(f"  Period:        {week[0]['date']} to {week[-1]['date']}")
+    log(f"  Week P&L:      ${week_pnl:+,.2f}  ({week_pct:+.2f}%)")
+    log(f"  Trades this week: {len(entries)}")
+    log(f"  Current equity:   ${end_equity:,.2f}")
+    log(f"  All-time P&L:     ${all_pnl:+,.2f}  ({all_pct:+.2f}%)")
+    log(f"  Total entries:    {len(all_trades)}")
+    log("  ================================")
+    log("")
+
 # ── Make stock/ importable ────────────────────────────────────────────────────
 _here = os.path.dirname(os.path.abspath(__file__))
 if _here not in sys.path:
@@ -46,7 +113,7 @@ DEFAULT_VECNORM = DEFAULT_MODEL + "_vecnormalize.pkl"
 
 SIZE_MAP   = {0: 0.02, 1: 0.03, 2: 0.05, 3: 0.08}   # fraction of equity per action[1]
 ACTION_MAP = {0: "HOLD", 1: "LONG", 2: "SHORT", 3: "CLOSE"}
-OBS_DIM    = 21
+OBS_DIM    = 28
 
 
 # ── API Client ────────────────────────────────────────────────────────────────
@@ -82,22 +149,23 @@ class AlpacaClient:
                 return None
             raise
 
-    def get_bars(self, symbol: str, limit: int = 150, timeframe: str = "1Day") -> list[dict]:
-        """Fetch recent OHLCV bars from Alpaca Data API (sorted oldest→newest)."""
-        url = (f"{DATA_BASE}/stocks/{symbol}/bars"
-               f"?timeframe={timeframe}&limit={limit}&sort=asc&feed=iex")
-        resp = self._request("GET", url)
-        bars = resp.get("bars", [])
+    def get_bars(self, symbol: str, limit: int = 150) -> list[dict]:
+        """Fetch recent daily OHLCV bars via Yahoo Finance (free, no subscription needed)."""
+        import yfinance as yf
+        df = yf.Ticker(symbol).history(period="1y", interval="1d")
+        if df.empty:
+            return []
+        df = df[["Open", "High", "Low", "Close", "Volume"]].tail(limit)
         return [
             {
-                "open":      b["o"],
-                "high":      b["h"],
-                "low":       b["l"],
-                "close":     b["c"],
-                "volume":    b["v"],
-                "timestamp": b["t"],
+                "open":      row["Open"],
+                "high":      row["High"],
+                "low":       row["Low"],
+                "close":     row["Close"],
+                "volume":    row["Volume"],
+                "timestamp": str(idx.date()),
             }
-            for b in bars
+            for idx, row in df.iterrows()
         ]
 
     def submit_order(self, symbol: str, qty: float, side: str,
@@ -223,14 +291,23 @@ def build_observation(market_data: dict, ict: dict, account: dict, step: int) ->
     obs[12] = ict.get("ob_strength",      0.0)
     obs[13] = ict.get("liquidity_sweep",  0.0)
 
-    obs[14] = account.get("is_long",       0.0)
-    obs[15] = account.get("is_short",      0.0)
-    obs[16] = account.get("unrealized_pct",0.0)
-    obs[17] = account.get("drawdown",      0.0)
+    # Session signals — daily bars have no intraday session data, default 0
+    obs[14] = 0.0  # session_asia
+    obs[15] = 0.0  # session_london
+    obs[16] = 0.0  # session_ny
+    obs[17] = 0.0  # judas_swing_bull
+    obs[18] = 0.0  # judas_swing_bear
+    obs[19] = 0.0  # asia_range_sweep_high
+    obs[20] = 0.0  # asia_range_sweep_low
 
-    obs[18] = (step % 30)  / 30.0    # weekly cycle proxy
-    obs[19] = (step % 126) / 126.0   # monthly cycle proxy
-    obs[20] = min(account.get("bars_in_position", 0), 60) / 60.0
+    obs[21] = account.get("is_long",        0.0)
+    obs[22] = account.get("is_short",       0.0)
+    obs[23] = account.get("unrealized_pct", 0.0)
+    obs[24] = account.get("drawdown",       0.0)
+
+    obs[25] = (step % 30)  / 30.0    # weekly cycle proxy
+    obs[26] = (step % 126) / 126.0   # monthly cycle proxy
+    obs[27] = min(account.get("bars_in_position", 0), 60) / 60.0
 
     return np.clip(obs, -10.0, 10.0)
 
@@ -309,16 +386,16 @@ def run_once(symbol: str, model, vec_env, client: AlpacaClient,
              dry_run: bool, step_counter: list):
     """Run one decision cycle: observe → predict → execute."""
 
-    print()
-    print(f"  {'─'*60}")
-    print(f"  {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}  |  {symbol}")
-    print(f"  {'─'*60}")
+    log("")
+    log(f"  {'-'*60}")
+    log(f"  {symbol} — starting decision cycle")
+    log(f"  {'-'*60}")
 
     # ── 1. Fetch recent bars ───────────────────────────────────────────
-    print("  Fetching bars from Alpaca...")
+    log("  Fetching bars from Yahoo Finance...")
     bars = client.get_bars(symbol, limit=150)
     if len(bars) < 10:
-        print(f"  ERROR: Only {len(bars)} bars returned — aborting this cycle")
+        log(f"  ERROR: Only {len(bars)} bars returned — aborting this cycle")
         return
 
     history = bars  # list of dicts, oldest→newest
@@ -328,9 +405,9 @@ def run_once(symbol: str, model, vec_env, client: AlpacaClient,
     market_data  = enrich_bar(current_bar, history)
     ict_signals  = detect_ict_signals(history)
 
-    print(f"  Latest bar: {current_bar.get('timestamp', 'N/A')[:10]}  "
-          f"close=${current_bar['close']:,.2f}  "
-          f"vol={current_bar['volume']:,}")
+    log(f"  Latest bar: {current_bar.get('timestamp', 'N/A')[:10]}  "
+        f"close=${current_bar['close']:,.2f}  "
+        f"vol={current_bar['volume']:,}")
 
     # ── 3. Sync account state with Alpaca ─────────────────────────────
     acct          = client.get_account()
@@ -351,7 +428,6 @@ def run_once(symbol: str, model, vec_env, client: AlpacaClient,
             is_long  = 1.0
         elif qty < 0:
             is_short = 1.0
-        cost_basis      = float(position.get("avg_entry_price", current_bar["close"]))
         unrealized_pnl  = float(position.get("unrealized_pl", 0.0))
         unrealized_pct  = unrealized_pnl / max(equity, 1.0)
 
@@ -363,9 +439,9 @@ def run_once(symbol: str, model, vec_env, client: AlpacaClient,
         "bars_in_position": bars_in_pos,
     }
 
-    print(f"  Account: equity=${equity:,.2f}  cash=${cash:,.2f}  "
-          f"drawdown={drawdown:.1%}  "
-          f"{'LONG' if is_long else 'SHORT' if is_short else 'FLAT'}")
+    log(f"  Account: equity=${equity:,.2f}  cash=${cash:,.2f}  "
+        f"drawdown={drawdown:.1%}  "
+        f"{'LONG' if is_long else 'SHORT' if is_short else 'FLAT'}")
 
     # ── 4. Build + normalize observation ──────────────────────────────
     step  = step_counter[0]
@@ -382,9 +458,7 @@ def run_once(symbol: str, model, vec_env, client: AlpacaClient,
     size_pct       = SIZE_MAP[size_idx]
     action_name    = ACTION_MAP[trade_decision]
 
-    print(f"  Agent decision: {action_name}  "
-          f"size={size_pct:.0%}  "
-          f"filter={setup_filter}")
+    log(f"  Agent decision: {action_name}  size={size_pct:.0%}  filter={setup_filter}")
 
     # ── 6. Execute order ───────────────────────────────────────────────
     price  = current_bar["close"]
@@ -392,28 +466,28 @@ def run_once(symbol: str, model, vec_env, client: AlpacaClient,
 
     if trade_decision == 1 and not has_position:      # LONG
         qty = max(1, int((equity * size_pct) / price))
-        print(f"  {'[DRY RUN] ' if dry_run else ''}BUY {qty} shares of {symbol} @ ~${price:,.2f}")
+        log(f"  {'[DRY RUN] ' if dry_run else ''}BUY {qty} shares of {symbol} @ ~${price:,.2f}")
         if not dry_run:
             order = client.submit_order(symbol, qty, "buy")
-            print(f"    Order ID: {order.get('id', 'N/A')}")
+            log(f"    Order ID: {order.get('id', 'N/A')}")
         step_counter[1] = 0
 
     elif trade_decision == 2 and not has_position:    # SHORT
         qty = max(1, int((equity * size_pct) / price))
-        print(f"  {'[DRY RUN] ' if dry_run else ''}SELL SHORT {qty} shares of {symbol} @ ~${price:,.2f}")
+        log(f"  {'[DRY RUN] ' if dry_run else ''}SELL SHORT {qty} shares of {symbol} @ ~${price:,.2f}")
         if not dry_run:
             order = client.submit_order(symbol, qty, "sell")
-            print(f"    Order ID: {order.get('id', 'N/A')}")
+            log(f"    Order ID: {order.get('id', 'N/A')}")
         step_counter[1] = 0
 
     elif trade_decision == 3 and has_position:        # CLOSE
-        print(f"  {'[DRY RUN] ' if dry_run else ''}CLOSE position in {symbol}")
+        log(f"  {'[DRY RUN] ' if dry_run else ''}CLOSE position in {symbol}")
         if not dry_run:
             client.close_position(symbol)
         step_counter[1] = 0
 
     else:
-        print(f"  Holding — no order placed.")
+        log(f"  Holding — no order placed.")
         if has_position:
             step_counter[1] += 1
 
@@ -422,8 +496,28 @@ def run_once(symbol: str, model, vec_env, client: AlpacaClient,
     # ── 7. ICT signal summary ──────────────────────────────────────────
     active = [k for k, v in ict_signals.items() if v > 0.5]
     if active:
-        print(f"  ICT signals: {', '.join(active)}")
-    print()
+        log(f"  ICT signals: {', '.join(active)}")
+
+    # ── 8. Save daily record ───────────────────────────────────────────
+    executed_qty = 0
+    if trade_decision in (1, 2) and not has_position:
+        executed_qty = max(1, int((equity * size_pct) / price))
+    save_daily_record(
+        date         = current_bar.get("timestamp", "")[:10],
+        symbol       = symbol,
+        action       = action_name,
+        equity       = equity,
+        price        = price,
+        qty          = executed_qty,
+        has_position = has_position or trade_decision in (1, 2),
+        pnl          = float(position.get("unrealized_pl", 0.0)) if position else 0.0,
+    )
+
+    # ── 9. Weekly summary on Fridays ───────────────────────────────────
+    if datetime.now().weekday() == 4:   # 4 = Friday
+        weekly_summary()
+
+    log("")
 
 
 def main():
