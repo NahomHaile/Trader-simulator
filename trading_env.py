@@ -123,7 +123,7 @@ class RewardCalculator:
     # Bonus just for completing (closing) a trade
     CLOSE_BONUS       = 0.01
     # Hard cooldown between trades (bars) — enforced in TradingEnv, not reward
-    ENTRY_COOLDOWN_BARS = 30
+    ENTRY_COOLDOWN_BARS = 5
 
     def __init__(
         self,
