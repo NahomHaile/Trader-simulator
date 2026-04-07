@@ -12,8 +12,9 @@
     </Principal>
   </Principals>
   <Settings>
-    <DisallowStartIfOnBatteries>true</DisallowStartIfOnBatteries>
-    <StopIfGoingOnBatteries>true</StopIfGoingOnBatteries>
+    <WakeToRun>true</WakeToRun>
+    <DisallowStartIfOnBatteries>false</DisallowStartIfOnBatteries>
+    <StopIfGoingOnBatteries>false</StopIfGoingOnBatteries>
     <MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>
     <IdleSettings>
       <Duration>PT10M</Duration>
