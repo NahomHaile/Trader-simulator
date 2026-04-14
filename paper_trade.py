@@ -128,15 +128,29 @@ class AlpacaClient:
             "Content-Type":        "application/json",
         }
 
-    def _request(self, method: str, url: str, body: dict = None) -> dict:
+    def _request(self, method: str, url: str, body: dict = None,
+                 retries: int = 4, backoff: float = 2.0) -> dict:
         data = json.dumps(body).encode() if body else None
-        req  = urllib.request.Request(url, data=data, headers=self.headers, method=method)
-        try:
-            with urllib.request.urlopen(req, timeout=15) as resp:
-                return json.loads(resp.read().decode())
-        except urllib.error.HTTPError as e:
-            msg = e.read().decode()
-            raise RuntimeError(f"Alpaca {method} {url} → {e.code}: {msg}") from e
+        for attempt in range(retries):
+            req = urllib.request.Request(url, data=data, headers=self.headers, method=method)
+            try:
+                with urllib.request.urlopen(req, timeout=15) as resp:
+                    return json.loads(resp.read().decode())
+            except urllib.error.HTTPError as e:
+                msg = e.read().decode()
+                if e.code < 500:
+                    raise RuntimeError(f"Alpaca {method} {url} → {e.code}: {msg}") from e
+                if attempt == retries - 1:
+                    raise RuntimeError(f"Alpaca {method} {url} → {e.code}: {msg}") from e
+                wait = backoff ** attempt
+                print(f"  WARNING: Alpaca {e.code} error, retrying in {wait:.0f}s... (attempt {attempt+1}/{retries})")
+                time.sleep(wait)
+            except urllib.error.URLError as e:
+                if attempt == retries - 1:
+                    raise RuntimeError(f"Alpaca {method} {url} → network error: {e.reason}") from e
+                wait = backoff ** attempt
+                print(f"  WARNING: Network error ({e.reason}), retrying in {wait:.0f}s... (attempt {attempt+1}/{retries})")
+                time.sleep(wait)
 
     def get_account(self) -> dict:
         return self._request("GET", f"{PAPER_BASE}/account")
@@ -482,22 +496,31 @@ def run_once(symbol: str, model, vec_env, client: AlpacaClient,
         notional = round(sizing_capital * size_pct, 2)
         log(f"  {'[DRY RUN] ' if dry_run else ''}BUY ${notional:.2f} of {symbol} @ ~${price:,.2f}")
         if not dry_run:
-            order = client.submit_order(symbol, notional, "buy")
-            log(f"    Order ID: {order.get('id', 'N/A')}")
+            try:
+                order = client.submit_order(symbol, notional, "buy")
+                log(f"    Order ID: {order.get('id', 'N/A')}")
+            except Exception as e:
+                log(f"  ERROR submitting BUY order: {e}")
         step_counter[1] = 0
 
     elif trade_decision == 2 and not has_position:    # SHORT
         notional = round(sizing_capital * size_pct, 2)
         log(f"  {'[DRY RUN] ' if dry_run else ''}SELL SHORT ${notional:.2f} of {symbol} @ ~${price:,.2f}")
         if not dry_run:
-            order = client.submit_order(symbol, notional, "sell", price=price)
-            log(f"    Order ID: {order.get('id', 'N/A')}")
+            try:
+                order = client.submit_order(symbol, notional, "sell", price=price)
+                log(f"    Order ID: {order.get('id', 'N/A')}")
+            except Exception as e:
+                log(f"  ERROR submitting SHORT order: {e}")
         step_counter[1] = 0
 
     elif trade_decision == 3 and has_position:        # CLOSE
         log(f"  {'[DRY RUN] ' if dry_run else ''}CLOSE position in {symbol}")
         if not dry_run:
-            client.close_position(symbol)
+            try:
+                client.close_position(symbol)
+            except Exception as e:
+                log(f"  ERROR closing position: {e}")
         step_counter[1] = 0
 
     else:
@@ -561,14 +584,22 @@ def main():
     api_key, secret_key = load_keys()
     client = AlpacaClient(api_key, secret_key)
 
-    # Verify connection
-    try:
-        acct = client.get_account()
-        print(f"  Connected to Alpaca paper account: {acct['id']}")
-        print(f"  Equity: ${float(acct['equity']):,.2f}  Cash: ${float(acct['cash']):,.2f}")
-    except Exception as e:
-        print(f"  ERROR connecting to Alpaca: {e}")
-        sys.exit(1)
+    # Verify connection (retry up to 5 times with exponential backoff)
+    acct = None
+    for attempt in range(5):
+        try:
+            acct = client.get_account()
+            print(f"  Connected to Alpaca paper account: {acct['id']}")
+            print(f"  Equity: ${float(acct['equity']):,.2f}  Cash: ${float(acct['cash']):,.2f}")
+            break
+        except Exception as e:
+            wait = 2 ** attempt
+            if attempt < 4:
+                print(f"  WARNING: Could not connect to Alpaca ({e}), retrying in {wait}s... (attempt {attempt+1}/5)")
+                time.sleep(wait)
+            else:
+                print(f"  ERROR connecting to Alpaca after 5 attempts: {e}")
+                sys.exit(1)
 
     # Load model
     print()
